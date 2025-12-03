@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
   return (
-    <section id="hero" className="w-full py-16 section-bg-hero">
+    <section id="hero" className="w-full py-16 section-bg-light hero-bg-extended">
       <Section>
         <div className="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
           <h1

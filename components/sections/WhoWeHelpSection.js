@@ -96,13 +96,13 @@ export default function WhoWeHelpSection() {
             <p className="paragraph text-xl">
               We work with various industries across Ghana, helping them streamline operations and improve efficiency.
             </p>
-            <div className="space-y-5 text-left text-xl">
+            <ul className="space-y-5 text-left text-xl list-none">
               <ListItem title="Construction & engineering companies" />
               <ListItem title="Power & utilities" />
               <ListItem title="Warehousing & logistics" />
               <ListItem title="Manufacturing & assembly" />
               <ListItem title="Distributors and wholesalers" />
-            </div>
+            </ul>
             <p className="text-xl font-semibold text-primary mt-8">
               If you manage stock, equipment, or approvals — we can help.
             </p>

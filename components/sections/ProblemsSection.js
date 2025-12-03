@@ -1,5 +1,4 @@
 import Section from '../base/Section'
-import Button from '../base/Button'
 import { IoCheckmarkCircleOutline } from 'react-icons/io5'
 
 export default function ProblemsSection({ onBookCall }) {
@@ -9,13 +8,10 @@ export default function ProblemsSection({ onBookCall }) {
         <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8">
           {/* Left Side - Credit Cards Style Visualization */}
           <div data-aos="fade-right" className="relative flex items-center justify-center lg:justify-start h-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px] py-8 lg:py-0">
-            {/* Background Gradient Circle */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] rounded-full bg-gradient-to-br from-primary/20 via-primary/10 to-primary/5 blur-3xl"></div>
-            
             {/* Stacked Cards */}
             <div className="relative z-10 flex items-center justify-center w-full max-w-[360px] sm:max-w-none">
               {/* Card 3 - Bottom Card (Primary Gradient) */}
-              <div className="absolute transform rotate-[-8deg] translate-x-[-30px] sm:translate-x-[-40px] translate-y-[50px] sm:translate-y-[60px] w-[240px] h-[150px] sm:w-[280px] sm:h-[180px] md:w-[320px] md:h-[200px] rounded-xl shadow-2xl overflow-hidden"
+              <div className="absolute transform rotate-[-8deg] translate-x-[-30px] sm:translate-x-[-40px] translate-y-[50px] sm:translate-y-[60px] w-[240px] h-[150px] sm:w-[280px] sm:h-[180px] md:w-[320px] md:h-[200px] rounded-xl overflow-hidden"
                    style={{
                      background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)',
                      zIndex: 1
@@ -36,7 +32,7 @@ export default function ProblemsSection({ onBookCall }) {
               </div>
 
               {/* Card 2 - Middle Card (Darker Gradient) */}
-              <div className="absolute transform rotate-[-4deg] translate-x-[-15px] sm:translate-x-[-20px] translate-y-[25px] sm:translate-y-[30px] w-[260px] h-[160px] sm:w-[300px] sm:h-[190px] md:w-[340px] md:h-[210px] rounded-xl shadow-2xl overflow-hidden"
+              <div className="absolute transform rotate-[-4deg] translate-x-[-15px] sm:translate-x-[-20px] translate-y-[25px] sm:translate-y-[30px] w-[260px] h-[160px] sm:w-[300px] sm:h-[190px] md:w-[340px] md:h-[210px] rounded-xl overflow-hidden"
                    style={{
                      background: 'linear-gradient(135deg, #D43E0F 0%, #B8320C 100%)',
                      zIndex: 2
@@ -57,7 +53,7 @@ export default function ProblemsSection({ onBookCall }) {
               </div>
 
               {/* Card 1 - Top Card (Patterned with Brand Colors) */}
-              <div className="relative transform rotate-[2deg] translate-y-[-15px] sm:translate-y-[-20px] w-[280px] h-[170px] sm:w-[320px] sm:h-[200px] md:w-[360px] md:h-[220px] rounded-xl shadow-2xl overflow-hidden"
+              <div className="relative transform rotate-[2deg] translate-y-[-15px] sm:translate-y-[-20px] w-[280px] h-[170px] sm:w-[320px] sm:h-[200px] md:w-[360px] md:h-[220px] rounded-xl overflow-hidden"
                    style={{
                      background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
                      zIndex: 3
@@ -142,15 +138,6 @@ export default function ProblemsSection({ onBookCall }) {
             <p className="text-base sm:text-lg font-semibold text-neutral-800 mt-4 sm:mt-6">
               We solved all these problems inside Luton Engineering — and we can help you do the same.
             </p>
-            
-            <div className="mt-6 sm:mt-8">
-              <Button 
-                onClick={onBookCall}
-                className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-colors duration-300 rounded-lg"
-              >
-                Book a Free Consultation
-              </Button>
-            </div>
           </div>
         </div>
       </Section>

@@ -1,61 +1,16 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import NavLink from '../NavLink'
 import Button from './Button'
 import Image from 'next/image'
 import { HiMenu, HiX } from 'react-icons/hi'
-import { IoChevronDown, IoChevronUp } from 'react-icons/io5'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
-  const [dropdownNavbar, setDropdownNavbar] = useState(false)
-  const [isVisible, setIsVisible] = useState(true)
-  const [lastScrollY, setLastScrollY] = useState(0)
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY
-      const heroSection = document.getElementById('hero')
-      
-      if (!heroSection) return
-
-      const heroTop = heroSection.offsetTop
-      const heroHeight = heroSection.offsetHeight
-      const heroBottom = heroTop + heroHeight
-
-      // Check if we're still in hero section
-      const isInHeroSection = currentScrollY >= 0 && currentScrollY < heroBottom
-
-      if (isInHeroSection) {
-        // At the very top of page, always show
-        if (currentScrollY < 50) {
-          setIsVisible(true)
-        } 
-        // If scrolling down, hide navbar
-        else if (currentScrollY > lastScrollY) {
-          setIsVisible(false)
-        } 
-        // If scrolling up, show navbar
-        else if (currentScrollY < lastScrollY) {
-          setIsVisible(true)
-        }
-      } else {
-        // Outside hero section, always hide
-        setIsVisible(false)
-      }
-
-      setLastScrollY(currentScrollY)
-    }
-
-    window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [lastScrollY])
 
   return (
     <nav 
       id="navbar" 
-      className={`fixed top-0 left-0 right-0 z-50 w-full text-neutral-800 bg-transparent transition-transform duration-300 ${
-        isVisible ? 'translate-y-0' : '-translate-y-full'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 w-full text-neutral-800 section-bg-light shadow-sm"
     >
       <div className="flex flex-col max-w-[1440px] px-4 sm:px-6 lg:px-8 mx-auto lg:items-center lg:justify-between lg:flex-row py-3 lg:py-4">
         <div className="w-full flex flex-row items-center justify-between lg:w-auto">

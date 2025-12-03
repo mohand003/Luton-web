@@ -4,33 +4,13 @@ import Footer from './base/Footer'
 export default function Layout({ children }) {
   return (
     <div className="min-h-screen font-sans antialiased relative">
+      <Navbar />
       <div className="relative">
-        <div className="absolute top-0 left-0 w-full h-[125vh] sm:h-[225vh] lg:h-[125vh] cover-gradient-2 sm:cover-gradient"></div>
-        <Navbar />
-
         <main className="text-neutral-800">{children}</main>
 
         <Footer />
       </div>
       <style jsx>{`
-        .cover-gradient {
-          background: linear-gradient(
-            169.4deg,
-            rgba(252, 80, 18, 0.04) -6.01%,
-            rgba(252, 80, 18, 0.02) 36.87%,
-            rgba(157, 157, 157, 0.02) 78.04%,
-            rgba(252, 80, 18, 0.04) 103.77%
-          );
-        }
-        .cover-gradient-2 {
-          background: linear-gradient(
-            169.4deg,
-            rgba(252, 80, 18, 0.1) -6.01%,
-            rgba(252, 80, 18, 0.05) 36.87%,
-            rgba(157, 157, 157, 0.05) 78.04%,
-            rgba(252, 80, 18, 0.1) 103.77%
-          );
-        }
         .bg-blue-gradient,
         .text-gradient {
           background: linear-gradient(136.91deg, #FC5012 -12.5%, #D43E0F 107.5%);
@@ -43,14 +23,34 @@ export default function Layout({ children }) {
         /* Pattern 1 - Hero Pattern */
         .section-bg-hero {
           position: relative;
-          background: transparent !important;
+          background: linear-gradient(
+            135deg,
+            rgba(252, 80, 18, 0.06) 0%,
+            rgba(252, 80, 18, 0.03) 50%,
+            rgba(212, 62, 15, 0.06) 100%
+          ) !important;
+        }
+        .section-bg-hero::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: 
+            radial-gradient(circle at 20% 50%, rgba(252, 80, 18, 0.1) 0%, transparent 50%),
+            radial-gradient(circle at 80% 80%, rgba(212, 62, 15, 0.1) 0%, transparent 50%);
+          background-size: 600px 600px;
+          background-position: -100px -100px, 100% 100%;
+          pointer-events: none;
+          z-index: 0;
         }
         .section-bg-hero > * {
           position: relative;
           z-index: 1;
         }
         
-        /* Pattern 2 - Light Pattern (نفس Hero بالضبط) */
+        /* Pattern 2 - Light Pattern */
         .section-bg-light {
           position: relative;
           background: linear-gradient(
@@ -78,6 +78,22 @@ export default function Layout({ children }) {
         .section-bg-light > * {
           position: relative;
           z-index: 1;
+        }
+
+        /* Hero Extended Background */
+        .hero-bg-extended {
+          padding-bottom: 200px !important;
+          margin-bottom: -96px !important;
+          position: relative;
+          z-index: 1;
+        }
+        .section-bg-light.hero-bg-extended {
+          background-size: 100% calc(100% + 200px - 96px);
+          background-position: top;
+        }
+        .section-bg-light.hero-bg-extended::before {
+          bottom: -200px;
+          height: calc(100% + 200px - 96px);
         }
 
         /* Pattern 3 - Dark Light Pattern (غامق شوية من Light) */

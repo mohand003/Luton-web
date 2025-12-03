@@ -21,7 +21,7 @@ export default function TrustSection() {
 
   return (
     <>
-      <section id="trust" className="w-full relative -mt-24 pt-24 pb-16">
+      <section id="trust" className="w-full relative -mt-24 pt-24 pb-16 section-bg-light trust-section-partial">
         <Section>
           <div className="col-span-12 relative z-10 flex justify-center">
             <div className="trust-box-container relative">
@@ -94,6 +94,38 @@ export default function TrustSection() {
           overflow: visible;
         }
         
+        .trust-section-partial {
+          background: linear-gradient(
+            to bottom,
+            rgba(252, 80, 18, 0.06) 0%,
+            rgba(252, 80, 18, 0.05) 5%,
+            rgba(252, 80, 18, 0.04) 10%,
+            rgba(252, 80, 18, 0.03) 20%,
+            rgba(212, 62, 15, 0.04) 25%,
+            rgba(212, 62, 15, 0.03) 30%,
+            rgba(255, 255, 255, 0.98) 45%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 1) 100%
+          );
+          position: relative;
+        }
+        
+        .trust-section-partial::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 50%;
+          background-image: 
+            radial-gradient(circle at 20% 50%, rgba(252, 80, 18, 0.1) 0%, transparent 50%),
+            radial-gradient(circle at 80% 80%, rgba(212, 62, 15, 0.1) 0%, transparent 50%);
+          background-size: 600px 600px;
+          background-position: -100px -100px, 100% 100%;
+          pointer-events: none;
+          z-index: 0;
+        }
+        
         .trust-box-container {
           width: 1200px;
           max-width: 100%;
@@ -107,33 +139,7 @@ export default function TrustSection() {
         }
         
         .trust-box-bg {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          background: linear-gradient(
-            135deg,
-            rgba(252, 80, 18, 0.12) 0%,
-            rgba(252, 80, 18, 0.08) 50%,
-            rgba(212, 62, 15, 0.12) 100%
-          );
-          z-index: -1;
-          pointer-events: none;
-        }
-        
-        .trust-box-bg::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-image: 
-            radial-gradient(circle at 20% 50%, rgba(252, 80, 18, 0.15) 0%, transparent 50%),
-            radial-gradient(circle at 80% 80%, rgba(212, 62, 15, 0.15) 0%, transparent 50%);
-          background-size: 600px 600px;
-          background-position: -100px -100px, 100% 100%;
-          pointer-events: none;
+          display: none;
         }
         
         @media (max-width: 1200px) {

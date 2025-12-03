@@ -1,5 +1,4 @@
 import Section from '../base/Section'
-import Button from '../base/Button'
 
 export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
   return (
@@ -8,54 +7,38 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
         <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8 mt-8 lg:mt-0 flex items-center">
           <div data-aos="fade-right" className="space-y-8 w-full">
             {/* Main Heading */}
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight text-neutral-800">
+            <h2 className="text-3xl sm:text-4xl font-bold leading-tight text-neutral-800">
               We tried it on ourselves first — <span className="text-gradient">and it works</span>
             </h2>
             
             {/* Sub-section 1 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-bold text-neutral-800">
-                Professional Access, Non-stop Availability
+                Built for our own operations
               </h3>
               <p className="paragraph text-base sm:text-lg text-neutral-600">
-                We provide premium access to our systems for both individuals and institutions through high reliability, consistent performance and constant uptime.
+                We first built these systems to solve real problems inside Luton Engineering. We use them every day to manage inventory, track projects, and streamline approvals. This isn't theory — it's proven in daily use.
               </p>
             </div>
             
             {/* Sub-section 2 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-bold text-neutral-800">
-                A Range of Powerful Systems
+                Real results, real data
               </h3>
               <p className="paragraph text-base sm:text-lg text-neutral-600">
-                Set up your own operations interface or deploy your workflow strategy with our high-performance ERP modules. Connect to our APIs for real-time data and reporting.
+                Our Inventory Management System handles thousands of items across multiple sites. Our ERP modules manage finance, purchasing, and production workflows. We know what works because we live with it every day.
               </p>
             </div>
             
             {/* Sub-section 3 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-bold text-neutral-800">
-                Customer Support
+                Tested under real conditions
               </h3>
               <p className="paragraph text-base sm:text-lg text-neutral-600">
-                Premium support available to all customers worldwide by phone or email. Dedicated account managers for partners.
+                These systems handle real deadlines, real budgets, and real operational pressure. If something doesn't work, we fix it immediately — because we're the ones using it. That's why we're confident they'll work for you.
               </p>
-            </div>
-            
-            {/* Call-to-Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Button 
-                onClick={onBookCall}
-                className="px-8 py-4 border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-colors duration-300 rounded-full"
-              >
-                Get Started
-              </Button>
-              <Button 
-                onClick={onSeeHowItWorks}
-                className="px-6 py-4 text-primary font-semibold hover:underline transition-colors duration-300"
-              >
-                Learn More
-              </Button>
             </div>
           </div>
         </div>
