@@ -11,19 +11,19 @@ export default function WhoWeHelpSection() {
           <div data-aos="fade-right" className="relative w-full max-w-lg h-[500px] flex items-center justify-center">
             {/* Construction & Engineering - Top Left */}
             <div className="absolute top-12 left-8 z-20 transform rotate-[-5deg]">
-              <div className="w-32 h-32 bg-gradient-to-br from-orange-400 to-primary rounded-xl shadow-2xl flex items-center justify-center relative">
+              <div className="w-32 h-32 bg-gradient-to-br from-orange-400 to-primary rounded-xl flex items-center justify-center relative">
                 <div className="absolute inset-2 bg-white/20 rounded-lg flex items-center justify-center">
                   <IoConstructOutline className="text-white" size={64} />
                 </div>
                 {/* Construction elements */}
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-300 rounded shadow-lg"></div>
-                <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-yellow-400 rounded shadow-lg"></div>
+                <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-300 rounded"></div>
+                <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-yellow-400 rounded"></div>
               </div>
             </div>
             
             {/* Power & Utilities - Top Right */}
             <div className="absolute top-8 right-12 z-20 transform rotate-[5deg]">
-              <div className="w-28 h-28 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full shadow-2xl flex items-center justify-center relative">
+              <div className="w-28 h-28 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center relative">
                 <div className="absolute inset-2 bg-white/20 rounded-full flex items-center justify-center">
                   <IoFlashOutline className="text-white" size={56} />
                 </div>
@@ -35,20 +35,20 @@ export default function WhoWeHelpSection() {
             
             {/* Warehousing & Logistics - Center Large */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30">
-              <div className="w-48 h-48 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl shadow-2xl flex items-center justify-center relative">
+              <div className="w-48 h-48 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center relative">
                 <div className="absolute inset-3 bg-white/20 rounded-xl flex items-center justify-center">
                   <IoCubeOutline className="text-white" size={80} />
                 </div>
                 {/* Warehouse boxes */}
-                <div className="absolute top-4 left-4 w-12 h-12 bg-white/30 rounded shadow-lg"></div>
-                <div className="absolute bottom-4 right-4 w-10 h-10 bg-white/30 rounded shadow-lg"></div>
-                <div className="absolute top-1/2 left-2 -translate-y-1/2 w-8 h-8 bg-white/30 rounded shadow-lg"></div>
+                <div className="absolute top-4 left-4 w-12 h-12 bg-white/30 rounded"></div>
+                <div className="absolute bottom-4 right-4 w-10 h-10 bg-white/30 rounded"></div>
+                <div className="absolute top-1/2 left-2 -translate-y-1/2 w-8 h-8 bg-white/30 rounded"></div>
               </div>
             </div>
             
             {/* Manufacturing & Assembly - Bottom Left */}
             <div className="absolute bottom-16 left-12 z-20 transform rotate-[3deg]">
-              <div className="w-36 h-36 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl shadow-2xl flex items-center justify-center relative">
+              <div className="w-36 h-36 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center relative">
                 <div className="absolute inset-3 bg-white/20 rounded-lg flex items-center justify-center">
                   <IoGridOutline className="text-white" size={72} />
                 </div>
@@ -62,7 +62,7 @@ export default function WhoWeHelpSection() {
             
             {/* Distributors and Wholesalers - Bottom Right */}
             <div className="absolute bottom-12 right-8 z-20 transform rotate-[-3deg]">
-              <div className="w-32 h-32 bg-gradient-to-br from-green-500 to-green-600 rounded-xl shadow-2xl flex items-center justify-center relative">
+              <div className="w-32 h-32 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center relative">
                 <div className="absolute inset-2 bg-white/20 rounded-lg flex items-center justify-center">
                   <IoCarOutline className="text-white" size={64} />
                 </div>

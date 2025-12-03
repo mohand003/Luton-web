@@ -52,7 +52,7 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
             <div className="relative w-full max-w-lg">
               <Image
                 src="/assets/img/transmission-lines-feature-1920w.jpg"
-                className="rounded-2xl shadow-xl object-cover w-full h-auto relative z-10"
+                className="rounded-2xl object-cover w-full h-auto relative z-10"
                 alt="Luton IT Services"
                 width={800}
                 height={600}

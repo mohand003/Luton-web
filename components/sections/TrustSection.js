@@ -33,7 +33,7 @@ export default function TrustSection() {
               )}
               <div 
                 ref={trustBoxRef}
-                className="trust-box bg-white rounded-2xl shadow-xl p-8 sm:p-12 relative z-10"
+                className="trust-box bg-white rounded-2xl border-2 border-gray-300 p-8 sm:p-12 relative z-10"
               >
               <div className="text-center space-y-6">
                 {/* Title */}

@@ -20,7 +20,7 @@ export default function ServicesSection() {
         </div>
         <div className="col-span-12 grid sm:grid-cols-2 gap-6 px-4">
           {/* Card 1 - Inventory Management System */}
-          <div data-aos="fade-up" className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+          <div data-aos="fade-up" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
               background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
             }}>
@@ -41,7 +41,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Card 2 - Modular ERP */}
-          <div data-aos="fade-up" data-aos-delay="150" className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+          <div data-aos="fade-up" data-aos-delay="150" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
               background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
             }}>
@@ -62,7 +62,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Card 3 - Automation & AI */}
-          <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+          <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
               background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
             }}>
@@ -79,7 +79,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Card 4 - Advisory, Training & Support */}
-          <div data-aos="fade-up" data-aos-delay="450" className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+          <div data-aos="fade-up" data-aos-delay="450" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
               background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
             }}>

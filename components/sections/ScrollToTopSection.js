@@ -16,7 +16,7 @@ export default function ScrollToTopSection() {
             e.preventDefault()
             handleScrollToTop()
           }}
-          className="px-6 py-3 flex items-center space-x-2 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-md text-gray-700"
+          className="px-6 py-3 flex items-center space-x-2 bg-[#FAFAFA] hover:bg-gray-100 border border-[#DDDDDD] rounded-md text-gray-700"
         >
           <span>Back to top</span>
           <IoArrowUp size={20} />

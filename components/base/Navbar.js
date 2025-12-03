@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav 
       id="navbar" 
-      className="fixed top-0 left-0 right-0 z-50 w-full text-neutral-800 section-bg-light shadow-sm"
+      className="fixed top-0 left-0 right-0 z-50 w-full text-neutral-800 section-bg-light"
     >
       <div className="flex flex-col max-w-[1440px] px-4 sm:px-6 lg:px-8 mx-auto lg:items-center lg:justify-between lg:flex-row py-3 lg:py-4">
         <div className="w-full flex flex-row items-center justify-between lg:w-auto">
@@ -59,7 +59,7 @@ export default function Navbar() {
               <span className="sm:hidden">How It Works</span>
             </Button>
             <Button 
-              className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-2.5 lg:py-3 text-sm lg:text-base bg-gradient-to-r from-primary to-primary-dark text-white hover:shadow-lg cursor-pointer"
+              className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-2.5 lg:py-3 text-sm lg:text-base bg-gradient-to-r from-primary to-primary-dark text-white cursor-pointer"
               onClick={() => {
                 setOpen(false)
                 window.location.href = '#contact'

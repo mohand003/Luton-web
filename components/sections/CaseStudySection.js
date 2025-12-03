@@ -49,7 +49,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             <div className="relative w-full h-full flex items-center justify-center" style={{ maxWidth: '100%' }}>
               {/* Central Badge - "We Tried It First" */}
               <div className="relative z-20 transform rotate-[-5deg]">
-                <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72 bg-gradient-to-br from-primary via-primary-dark to-primary rounded-full shadow-2xl border-4 border-white flex items-center justify-center relative overflow-hidden">
+                <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72 bg-gradient-to-br from-primary via-primary-dark to-primary rounded-full border-4 border-white flex items-center justify-center relative overflow-hidden">
                   {/* Checkmark Icon */}
                   <div className="relative z-10">
                     <svg className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               {/* Computer Screens - Representing Systems */}
               {/* Screen 1 - IMS System */}
               <div className="absolute z-15 top-12 sm:top-16 lg:top-20 left-8 sm:left-16 lg:left-20 xl:left-24 transform rotate-[-12deg] hover:scale-110 transition-transform duration-300">
-                <div className="w-36 h-28 sm:w-44 sm:h-32 lg:w-52 lg:h-40 xl:w-60 xl:h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-xl border-2 border-gray-600 relative">
+                <div className="w-36 h-28 sm:w-44 sm:h-32 lg:w-52 lg:h-40 xl:w-60 xl:h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border-2 border-gray-600 relative">
                   {/* Screen Content */}
                   <div className="absolute inset-1 bg-gray-100 rounded">
                     <div className="p-3 sm:p-4 space-y-1.5 sm:space-y-2">
@@ -90,7 +90,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               
               {/* Screen 2 - ERP System */}
               <div className="absolute z-15 top-12 sm:top-16 lg:top-20 right-8 sm:right-16 lg:right-20 xl:right-24 transform rotate-[12deg] hover:scale-110 transition-transform duration-300">
-                <div className="w-36 h-28 sm:w-44 sm:h-32 lg:w-52 lg:h-40 xl:w-60 xl:h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-xl border-2 border-gray-600 relative">
+                <div className="w-36 h-28 sm:w-44 sm:h-32 lg:w-52 lg:h-40 xl:w-60 xl:h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border-2 border-gray-600 relative">
                   {/* Screen Content */}
                   <div className="absolute inset-1 bg-gray-100 rounded">
                     <div className="p-3 sm:p-4 space-y-1.5 sm:space-y-2">
@@ -113,7 +113,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               {/* API/Integration Icons */}
               {/* API Icon - Left */}
               <div className="absolute z-15 top-1/3 left-4 sm:left-8 lg:left-12 xl:left-16 transform rotate-[-8deg] hover:scale-110 transition-transform duration-300">
-                <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl shadow-xl border-2 border-blue-300 flex items-center justify-center">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl border-2 border-blue-300 flex items-center justify-center">
                   <svg className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
@@ -122,7 +122,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               
               {/* Support Icon - Right */}
               <div className="absolute z-15 top-1/3 right-4 sm:right-8 lg:right-12 xl:right-16 transform rotate-[8deg] hover:scale-110 transition-transform duration-300">
-                <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 bg-gradient-to-br from-green-500 to-green-600 rounded-xl shadow-xl border-2 border-green-300 flex items-center justify-center">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 bg-gradient-to-br from-green-500 to-green-600 rounded-xl border-2 border-green-300 flex items-center justify-center">
                   <svg className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
@@ -131,7 +131,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               
               {/* Tablet/Device - Bottom Left */}
               <div className="absolute z-15 bottom-24 sm:bottom-28 lg:bottom-32 xl:bottom-36 left-8 sm:left-16 lg:left-20 xl:left-24 transform rotate-[5deg] hover:scale-110 transition-transform duration-300">
-                <div className="w-32 h-24 sm:w-40 sm:h-32 lg:w-48 lg:h-36 xl:w-56 xl:h-44 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-xl border-2 border-gray-500 relative">
+                <div className="w-32 h-24 sm:w-40 sm:h-32 lg:w-48 lg:h-36 xl:w-56 xl:h-44 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg border-2 border-gray-500 relative">
                   <div className="absolute inset-1 bg-gray-100 rounded">
                     <div className="p-3 sm:p-4 space-y-1.5 sm:space-y-2">
                       <div className="h-1.5 sm:h-2 bg-primary rounded w-full"></div>
@@ -146,7 +146,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               
               {/* Dashboard/Chart Icon - Bottom Right */}
               <div className="absolute z-15 bottom-24 sm:bottom-28 lg:bottom-32 xl:bottom-36 right-8 sm:right-16 lg:right-20 xl:right-24 transform rotate-[-5deg] hover:scale-110 transition-transform duration-300">
-                <div className="w-28 h-28 sm:w-32 sm:h-32 lg:w-36 lg:h-36 xl:w-40 xl:h-40 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl shadow-xl border-2 border-purple-300 flex items-center justify-center">
+                <div className="w-28 h-28 sm:w-32 sm:h-32 lg:w-36 lg:h-36 xl:w-40 xl:h-40 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl border-2 border-purple-300 flex items-center justify-center">
                   <svg className="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 xl:w-24 xl:h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
@@ -164,7 +164,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               {/* Decorative Elements */}
               {/* Success Badge */}
               <div className="absolute z-10 top-16 sm:top-20 lg:top-24 right-20 sm:right-24 lg:right-28 xl:right-32 transform rotate-12">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-green-500 rounded-full shadow-lg flex items-center justify-center">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-green-500 rounded-full flex items-center justify-center">
                   <svg className="w-7 h-7 sm:w-8 sm:h-8 lg:w-9 lg:h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -173,7 +173,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
               
               {/* Availability Indicator */}
               <div className="absolute z-10 bottom-16 sm:bottom-20 lg:bottom-24 left-16 sm:left-20 lg:left-24 xl:left-28 transform rotate-[-15deg]">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-green-400 rounded-full shadow-lg flex items-center justify-center relative">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-green-400 rounded-full flex items-center justify-center relative">
                   <div className="absolute inset-0 bg-green-400 rounded-full animate-ping opacity-75"></div>
                   <div className="relative w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-full"></div>
                 </div>

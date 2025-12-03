@@ -326,7 +326,7 @@ export default function ContactSection() {
                   
                   <Button
                     type="submit"
-                    className="w-full px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-semibold hover:shadow-lg rounded-lg"
+                    className="w-full px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-semibold rounded-lg"
                   >
                     Send message
                   </Button>
