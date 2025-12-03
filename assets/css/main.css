@@ -1,0 +1,340 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transform-fade-down-enter-active,
+.transform-fade-down-leave-active {
+  @apply transition-all translate-y-0 duration-300;
+}
+.transform-fade-down-enter, .transform-fade-down-leave-to {
+  @apply opacity-0 transform -translate-y-2;
+}
+
+.paragraph {
+  @apply text-gray-700 tracking-wide leading-relaxed;
+}
+
+/* for remove arrow spinner button on input number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.shadow-box {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+}
+
+/* Section Background Patterns */
+
+/* Pattern 1 - Hero Pattern (فاتح ساده مطعم بالبرتقالي) */
+.section-bg-hero {
+  position: relative !important;
+  background: transparent !important;
+  color: #1f2937 !important;
+}
+.section-bg-hero > * {
+  position: relative;
+  z-index: 1;
+}
+/* النصوص في الأقسام الفاتحة */
+.section-bg-hero h1,
+.section-bg-hero h2,
+.section-bg-hero h3,
+.section-bg-hero h4,
+.section-bg-hero h5,
+.section-bg-hero h6 {
+  color: #111827 !important;
+}
+.section-bg-hero p,
+.section-bg-hero span,
+.section-bg-hero li {
+  color: #374151 !important;
+}
+
+/* Pattern 2 - Light Pattern (فاتح ساده مطعم بالبرتقالي) */
+.section-bg-light {
+  position: relative !important;
+  background: #FFFFFF !important;
+  color: #1f2937 !important;
+}
+.section-bg-light::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(252, 80, 18, 0.05) !important;
+  pointer-events: none;
+  z-index: 0;
+}
+.section-bg-light > * {
+  position: relative;
+  z-index: 1;
+}
+/* النصوص في الأقسام الفاتحة */
+.section-bg-light h1,
+.section-bg-light h2,
+.section-bg-light h3,
+.section-bg-light h4,
+.section-bg-light h5,
+.section-bg-light h6 {
+  color: #111827 !important;
+}
+.section-bg-light p,
+.section-bg-light span,
+.section-bg-light li {
+  color: #374151 !important;
+}
+
+
+/* Pattern 4 - Dark Pattern (غامق جداً ساده مطعم بالبرتقالي) */
+.section-bg-dark {
+  position: relative !important;
+  background: #0a0e1a !important;
+  color: #ffffff !important;
+}
+.section-bg-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(252, 80, 18, 0.2) !important;
+  pointer-events: none;
+  z-index: 0;
+}
+.section-bg-dark > * {
+  position: relative;
+  z-index: 1;
+}
+/* النصوص في الأقسام الداكنة */
+.section-bg-dark h1,
+.section-bg-dark h2,
+.section-bg-dark h3,
+.section-bg-dark h4,
+.section-bg-dark h5,
+.section-bg-dark h6 {
+  color: #ffffff !important;
+}
+.section-bg-dark p,
+.section-bg-dark span,
+.section-bg-dark li,
+.section-bg-dark div {
+  color: #e5e7eb !important;
+}
+.section-bg-dark .text-gray-700,
+.section-bg-dark .text-gray-600,
+.section-bg-dark .text-gray-800,
+.section-bg-dark .text-neutral-800 {
+  color: #e5e7eb !important;
+}
+/* الكروت البيضاء في الأقسام الداكنة - النصوص تبقى داكنة */
+.section-bg-dark .bg-white,
+.section-bg-dark [class*="bg-white"] {
+  color: #1f2937 !important;
+}
+.section-bg-dark .bg-white h1,
+.section-bg-dark .bg-white h2,
+.section-bg-dark .bg-white h3,
+.section-bg-dark .bg-white h4,
+.section-bg-dark .bg-white h5,
+.section-bg-dark .bg-white h6 {
+  color: #111827 !important;
+}
+.section-bg-dark .bg-white p,
+.section-bg-dark .bg-white span,
+.section-bg-dark .bg-white li,
+.section-bg-dark .bg-white div {
+  color: #374151 !important;
+}
+.section-bg-dark .bg-white .text-gray-700,
+.section-bg-dark .bg-white .text-gray-600,
+.section-bg-dark .bg-white .text-gray-800,
+.section-bg-dark .bg-white .text-neutral-800 {
+  color: #374151 !important;
+}
+
+/* Pattern 5 - Light Dark Pattern (فاتح من Dark ساده مطعم بالبرتقالي) */
+.section-bg-light-dark {
+  position: relative !important;
+  background: #2d3748 !important;
+  color: #ffffff !important;
+}
+.section-bg-light-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(252, 80, 18, 0.12) !important;
+  pointer-events: none;
+  z-index: 0;
+}
+.section-bg-light-dark > * {
+  position: relative;
+  z-index: 1;
+}
+/* النصوص في الأقسام المتوسطة */
+.section-bg-light-dark h1,
+.section-bg-light-dark h2,
+.section-bg-light-dark h3,
+.section-bg-light-dark h4,
+.section-bg-light-dark h5,
+.section-bg-light-dark h6 {
+  color: #ffffff !important;
+}
+.section-bg-light-dark p,
+.section-bg-light-dark span,
+.section-bg-light-dark li,
+.section-bg-light-dark div {
+  color: #f3f4f6 !important;
+}
+.section-bg-light-dark .text-gray-700,
+.section-bg-light-dark .text-gray-600,
+.section-bg-light-dark .text-gray-800,
+.section-bg-light-dark .text-neutral-800 {
+  color: #f3f4f6 !important;
+}
+/* الكروت البيضاء في الأقسام المتوسطة - النصوص تبقى داكنة */
+.section-bg-light-dark .bg-white,
+.section-bg-light-dark [class*="bg-white"] {
+  color: #1f2937 !important;
+}
+.section-bg-light-dark .bg-white h1,
+.section-bg-light-dark .bg-white h2,
+.section-bg-light-dark .bg-white h3,
+.section-bg-light-dark .bg-white h4,
+.section-bg-light-dark .bg-white h5,
+.section-bg-light-dark .bg-white h6 {
+  color: #111827 !important;
+}
+.section-bg-light-dark .bg-white p,
+.section-bg-light-dark .bg-white span,
+.section-bg-light-dark .bg-white li,
+.section-bg-light-dark .bg-white div {
+  color: #374151 !important;
+}
+.section-bg-light-dark .bg-white .text-gray-700,
+.section-bg-light-dark .bg-white .text-gray-600,
+.section-bg-light-dark .bg-white .text-gray-800,
+.section-bg-light-dark .bg-white .text-neutral-800 {
+  color: #374151 !important;
+}
+
+/* Pattern 3 - Dark Light Pattern (غامق شوية ساده مطعم بالبرتقالي) */
+.section-bg-dark-light {
+  position: relative !important;
+  background: #1a1a2e !important;
+  color: #ffffff !important;
+}
+.section-bg-dark-light::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(252, 80, 18, 0.15) !important;
+  pointer-events: none;
+  z-index: 0;
+}
+.section-bg-dark-light > * {
+  position: relative;
+  z-index: 1;
+}
+/* النصوص في الأقسام المتوسطة الغامقة */
+.section-bg-dark-light h1,
+.section-bg-dark-light h2,
+.section-bg-dark-light h3,
+.section-bg-dark-light h4,
+.section-bg-dark-light h5,
+.section-bg-dark-light h6 {
+  color: #ffffff !important;
+}
+.section-bg-dark-light p,
+.section-bg-dark-light span,
+.section-bg-dark-light li,
+.section-bg-dark-light div {
+  color: #e5e7eb !important;
+}
+.section-bg-dark-light .text-gray-700,
+.section-bg-dark-light .text-gray-600,
+.section-bg-dark-light .text-gray-800,
+.section-bg-dark-light .text-neutral-800 {
+  color: #e5e7eb !important;
+}
+/* الكروت البيضاء في الأقسام المتوسطة الغامقة - النصوص تبقى داكنة */
+.section-bg-dark-light .bg-white,
+.section-bg-dark-light [class*="bg-white"] {
+  color: #1f2937 !important;
+}
+.section-bg-dark-light .bg-white h1,
+.section-bg-dark-light .bg-white h2,
+.section-bg-dark-light .bg-white h3,
+.section-bg-dark-light .bg-white h4,
+.section-bg-dark-light .bg-white h5,
+.section-bg-dark-light .bg-white h6 {
+  color: #111827 !important;
+}
+.section-bg-dark-light .bg-white p,
+.section-bg-dark-light .bg-white span,
+.section-bg-dark-light .bg-white li,
+.section-bg-dark-light .bg-white div {
+  color: #374151 !important;
+}
+.section-bg-dark-light .bg-white .text-gray-700,
+.section-bg-dark-light .bg-white .text-gray-600,
+.section-bg-dark-light .bg-white .text-gray-800,
+.section-bg-dark-light .bg-white .text-neutral-800 {
+  color: #374151 !important;
+}
+
+/* Footer Dark */
+.footer-dark {
+  position: relative !important;
+  background: #0a0e1a !important;
+  color: #ffffff !important;
+}
+.footer-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(252, 80, 18, 0.2) !important;
+  pointer-events: none;
+  z-index: 0;
+}
+.footer-dark > * {
+  position: relative;
+  z-index: 1;
+}
+.footer-dark h1,
+.footer-dark h2,
+.footer-dark h3,
+.footer-dark h4,
+.footer-dark h5,
+.footer-dark h6,
+.footer-dark p,
+.footer-dark span,
+.footer-dark li,
+.footer-dark a,
+.footer-dark div {
+  color: #e5e7eb !important;
+}
+.footer-dark .text-white {
+  color: #ffffff !important;
+}
+.footer-dark .text-gray-300 {
+  color: #d1d5db !important;
+}
