@@ -30,8 +30,8 @@ export default function FAQSection() {
     <section id="faq" className="w-full py-16 bg-white">
       <Section>
         <div data-aos="fade-right" data-aos-delay="150" className="col-span-12 lg:col-span-6 px-4 sm:px-6 order-2 lg:order-1">
-          <span className="badge-orange inline-block px-4 py-2 text-base sm:text-lg font-semibold uppercase tracking-wider text-white rounded-md mb-4 sm:mb-2" style={{ fontWeight: 600, backgroundColor: '#FC5012', color: 'white' }}>Quick Support</span>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8 sm:mb-6 text-neutral-800" style={{ fontWeight: 700, letterSpacing: '-0.02em', lineHeight: '1.1' }}>Frequently asked <span style={{ color: '#FC5012' }}>questions</span></h2>
+          <span className="badge-orange inline-block px-4 py-2 text-base sm:text-lg font-semibold uppercase tracking-wider text-white rounded-md mb-4 sm:mb-2" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, backgroundColor: '#FC5012', color: 'white' }}>Quick Support</span>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8 sm:mb-6 text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '40px', letterSpacing: '-0.02em' }}>Frequently asked <span style={{ color: '#FC5012' }}>questions</span></h2>
           <div className="space-y-4">
             {accordions.map((accordion, index) => (
               <Accordion key={index} accordion={accordion} />

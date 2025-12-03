@@ -37,12 +37,12 @@ export default function TrustSection() {
               >
               <div className="text-center space-y-6">
                 {/* Title */}
-                <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800" style={{ fontWeight: 700, letterSpacing: '-0.01em', lineHeight: '1.2' }}>
+                <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '40px', letterSpacing: '-0.01em' }}>
                   Trusted by organisations in the <span style={{ color: '#FC5012' }}>UK & Ghana</span>:
                 </h2>
                 
                 {/* Description */}
-                <p data-aos="fade-up" data-aos-delay="150" className="text-base sm:text-lg md:text-xl text-neutral-500 font-normal max-w-2xl mx-auto" style={{ fontWeight: 400, lineHeight: 1.6 }}>
+                <p data-aos="fade-up" data-aos-delay="150" className="text-base sm:text-lg md:text-xl text-neutral-500 font-normal max-w-2xl mx-auto" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>
                   We combine UK-grade delivery with deep understanding of Ghana operations.
                 </p>
                 
