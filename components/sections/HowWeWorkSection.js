@@ -27,8 +27,8 @@ export default function HowWeWorkSection() {
     <section id="how-we-work" className="w-full py-16 bg-white">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-12">
-          <h2 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
-            Our simple 3-step process
+          <h2 data-aos="fade-up" className="text-4xl sm:text-5xl md:text-6xl font-bold" style={{ fontWeight: 700, letterSpacing: '-0.02em', lineHeight: '1.1' }}>
+            Our simple <span style={{ color: '#FC5012' }}>3-step process</span>
           </h2>
         </div>
         <div className="col-span-12">

@@ -90,20 +90,20 @@ export default function WhoWeHelpSection() {
         {/* Right Side - Text Content */}
         <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-12 lg:mt-0 flex items-center">
           <div data-aos="fade-left" className="space-y-7 w-full">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-800 leading-tight">
-              Businesses we support in Ghana
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 leading-[1.1]" style={{ fontWeight: 700, letterSpacing: '-0.02em' }}>
+              Businesses we support in <span style={{ color: '#FC5012' }}>Ghana</span>
             </h2>
-            <p className="paragraph text-xl">
+            <p className="text-lg sm:text-xl md:text-2xl" style={{ fontWeight: 400, lineHeight: 1.6 }}>
               We work with various industries across Ghana, helping them streamline operations and improve efficiency.
             </p>
-            <ul className="space-y-5 text-left text-xl list-none">
+            <ul className="space-y-5 text-left text-lg sm:text-xl md:text-2xl list-none" style={{ fontWeight: 400 }}>
               <ListItem title="Construction & engineering companies" />
               <ListItem title="Power & utilities" />
               <ListItem title="Warehousing & logistics" />
               <ListItem title="Manufacturing & assembly" />
               <ListItem title="Distributors and wholesalers" />
             </ul>
-            <p className="text-xl font-semibold text-primary mt-8">
+            <p className="text-xl sm:text-2xl font-semibold text-primary mt-8" style={{ fontWeight: 600 }}>
               If you manage stock, equipment, or approvals — we can help.
             </p>
           </div>

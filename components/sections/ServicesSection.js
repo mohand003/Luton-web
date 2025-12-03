@@ -7,15 +7,14 @@ export default function ServicesSection() {
     <section id="services" className="w-full py-20 bg-white">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-16">
-          <h2 data-aos="fade-up" className="text-3xl sm:text-4xl lg:text-5xl font-bold" style={{
-            background: 'linear-gradient(136.91deg, #FC5012 -12.5%, #D43E0F 107.5%)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            backgroundClip: 'text'
+          <h2 data-aos="fade-up" className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-neutral-800" style={{
+            fontWeight: 700,
+            letterSpacing: '-0.02em',
+            lineHeight: '1.1'
           }}>
-            Our Services for Ghana
+            Our Services for <span style={{ color: '#FC5012' }}>Ghana</span>
           </h2>
-          <p data-aos="fade-up" data-aos-delay="150" className="text-lg text-gray-600 mt-4">
+          <p data-aos="fade-up" data-aos-delay="150" className="text-lg sm:text-xl text-gray-600 mt-4" style={{ fontWeight: 400, lineHeight: 1.6 }}>
             Start small. Prove value. Scale when ready.
           </p>
         </div>
@@ -27,8 +26,8 @@ export default function ServicesSection() {
             }}>
               <IoCubeOutline className="text-white" size={32} />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 mb-3 text-center">1. Inventory Management System (IMS)</h3>
-            <p className="text-gray-600 text-center text-sm italic mb-4">
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3 text-center" style={{ fontWeight: 700, letterSpacing: '-0.01em' }}>1. Inventory Management System (IMS)</h3>
+            <p className="text-gray-600 text-center text-base sm:text-lg italic mb-4" style={{ fontWeight: 400, lineHeight: 1.6 }}>
               Built from real warehouse operations at Luton Engineering.
             </p>
             <ul className="space-y-2 text-left">
@@ -48,8 +47,8 @@ export default function ServicesSection() {
             }}>
               <IoGridOutline className="text-white" size={32} />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 mb-3 text-center">2. Modular ERP (Phased Rollout)</h3>
-            <p className="text-gray-600 text-center text-sm italic mb-4">
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3 text-center" style={{ fontWeight: 700, letterSpacing: '-0.01em' }}>2. Modular ERP (Phased Rollout)</h3>
+            <p className="text-gray-600 text-center text-base sm:text-lg italic mb-4" style={{ fontWeight: 400, lineHeight: 1.6 }}>
               Designed for Ghana companies who want to digitise slowly, one department at a time.
             </p>
             <ul className="space-y-2 text-left">
@@ -69,7 +68,7 @@ export default function ServicesSection() {
             }}>
               <IoSparklesOutline className="text-white" size={32} />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 mb-3 text-center">3. Automation & AI</h3>
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3 text-center" style={{ fontWeight: 700, letterSpacing: '-0.01em' }}>3. Automation & AI</h3>
             <ul className="space-y-2 text-left">
               <ListItem title="Remove manual work" />
               <ListItem title="Connect your systems" />
@@ -86,8 +85,8 @@ export default function ServicesSection() {
             }}>
               <IoConstructOutline className="text-white" size={32} />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 mb-3 text-center">4. Advisory, Training & Support</h3>
-            <p className="text-gray-600 text-center text-sm leading-relaxed">
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3 text-center" style={{ fontWeight: 700, letterSpacing: '-0.01em' }}>4. Advisory, Training & Support</h3>
+            <p className="text-gray-600 text-center text-base sm:text-lg leading-relaxed" style={{ fontWeight: 400, lineHeight: 1.6 }}>
               We map your processes, set up the right workflows, and support your team after go-live.
             </p>
           </div>

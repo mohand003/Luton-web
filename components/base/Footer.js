@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="section-bg-light border-t border-gray-200 relative">
+    <footer className="bg-white border-t border-gray-200 relative">
       <div className="max-w-[1440px] px-8 mx-auto">
         {/* Top Section - Logo and Links */}
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6 py-8">
@@ -22,10 +22,10 @@ export default function Footer() {
 
           {/* COMPANY Column */}
           <div>
-            <h5 className="text-sm font-semibold text-neutral-800 mb-3">COMPANY</h5>
+            <h5 className="text-sm font-semibold text-neutral-800 mb-3" style={{ fontWeight: 600, fontFamily: 'Inter, DM Sans, sans-serif' }}>COMPANY</h5>
             <ul className="space-y-2">
               <li>
-                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors">
+                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors" style={{ fontFamily: 'Inter, DM Sans, sans-serif' }}>
                   About
                 </Link>
               </li>
@@ -52,7 +52,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors">
+                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors" style={{ fontFamily: 'Inter, DM Sans, sans-serif' }}>
                   Case Study
                 </Link>
               </li>

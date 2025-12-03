@@ -10,13 +10,14 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
           <h1
             data-aos="fade-right"
             data-aos-once="true"
-            className="text-[1.75rem] sm:text-3xl xl:text-4xl font-bold leading-tight sm:pr-8 xl:pr-10"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] sm:pr-8 xl:pr-10"
+            style={{ fontWeight: 700, letterSpacing: '-0.02em' }}
           >
-            We are our own case study.
+            We are our own <span style={{ color: '#FC5012' }}>case study</span>.
             <br />
-            <span className="text-gradient">UK-level systems, proven inside Luton Engineering, now built for Ghana.</span>
+            UK-level systems, proven inside Luton Engineering, now built for Ghana.
           </h1>
-          <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" className="paragraph text-base">
+          <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" className="text-base sm:text-lg md:text-xl leading-relaxed" style={{ fontWeight: 400, lineHeight: 1.6 }}>
             We first built these systems for Luton Engineering in the UK.
             <br />
             We use them every day.
@@ -42,7 +43,7 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
               See How Our System Works
             </Button>
           </div>
-          <p data-aos="fade-up" data-aos-once="true" data-aos-delay="900" className="text-sm text-accent mt-4">
+          <p data-aos="fade-up" data-aos-once="true" data-aos-delay="900" className="text-sm sm:text-base text-accent mt-4" style={{ fontWeight: 400 }}>
             No pressure. We listen first, then show you the right solution.
           </p>
         </div>

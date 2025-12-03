@@ -10,8 +10,8 @@ export default function Step({ step }) {
         width={300}
         height={240}
       />
-      <h3 className="text-xl sm:text-2xl text-neutral-800 font-semibold">{step.title}</h3>
-      <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{step.description}</p>
+      <h3 className="text-2xl sm:text-3xl text-neutral-800 font-semibold" style={{ fontWeight: 600, letterSpacing: '-0.01em' }}>{step.title}</h3>
+      <p className="text-base sm:text-lg text-gray-700 leading-relaxed" style={{ fontWeight: 400, lineHeight: 1.6 }}>{step.description}</p>
     </div>
   )
 }
