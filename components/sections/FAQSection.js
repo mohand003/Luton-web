@@ -44,13 +44,13 @@ export default function FAQSection() {
           </div>
         </div>
         <div data-aos="fade-left" data-aos-delay="150" className="col-span-12 lg:col-span-6 order-1 lg:order-2 flex items-start justify-center lg:justify-end">
-          <div className="w-full max-w-lg lg:max-w-xl">
+          <div className="w-full max-w-lg lg:max-w-xl mt-8">
             <Image 
-              src="/assets/img/Gemini_Generated_Image_ou5isxou5isxou5i-removebg-preview.png" 
-              className="w-full h-auto object-contain max-h-[500px]" 
+              src="/assets/img/slide02-1920w.jpg" 
+              className="w-full h-auto object-contain max-h-[500px] rounded-lg" 
               alt="FAQ" 
-              width={700} 
-              height={700} 
+              width={1920} 
+              height={1080} 
             />
           </div>
         </div>
