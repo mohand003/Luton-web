@@ -76,7 +76,12 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
             </Button>
             <Button 
               onClick={onSeeHowItWorks}
-              className="max-w-full px-6 py-4 bg-inherit text-gradient border border-primary flex items-center justify-center cursor-pointer"
+              className="max-w-full px-6 py-4 bg-inherit text-gradient flex items-center justify-center cursor-pointer"
+              style={{ 
+                boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+                border: 'none',
+                outline: 'none'
+              }}
             >
               See How Our System Works
             </Button>
@@ -91,50 +96,32 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
               {/* Animated squares around images */}
               <AnimatedSquares containerRef={containerRef} />
               
-              {/* Circular rotating images */}
-              <div className="relative z-10 w-80 h-80 flex items-center justify-center">
-                <div className="relative w-full h-full">
-                  {images.map((src, index) => {
-                    const initialAngle = (index * 360) / images.length
-                    const radius = 160
-
-                    return (
-                      <div
-                        key={index}
-                        className="absolute"
-                        style={{
-                          left: '50%',
-                          top: '50%',
-                          marginLeft: '-90px',
-                          marginTop: '-60px',
-                          transform: `rotate(${initialAngle}deg) translateY(-${radius}px)`,
-                          transformOrigin: 'center center',
-                          animation: `rotate-image-around-center 30s linear infinite`,
-                          animationFillMode: 'forwards',
-                          '--start-angle': `${initialAngle}deg`
-                        }}
-                      >
-                        <div 
-                          className="rounded-lg overflow-hidden shadow-lg" 
-                          style={{
-                            width: '180px',
-                            height: '120px',
-                            animation: `counter-rotate-image 30s linear infinite`,
-                            '--start-counter-angle': `-${initialAngle}deg`
-                          }}
-                        >
-              <Image
-                            src={src}
-                            alt={`Hero image ${index + 1}`}
-                            width={180}
-                            height={120}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                      </div>
-                    )
-                  })}
-                </div>
+              {/* Static vertical rectangles side by side with different levels */}
+              <div className="relative z-10 w-full max-w-2xl flex flex-row gap-[15px] items-center">
+                {images.slice(0, 3).map((src, index) => {
+                  // First image: up, second: down, third: up
+                  const translateY = index === 0 ? '-30px' : index === 1 ? '30px' : '-30px'
+                  
+                  return (
+                    <div
+                      key={index}
+                      className="relative rounded-xl overflow-hidden bg-white flex-1"
+                      style={{
+                        aspectRatio: '6/16',
+                        minHeight: '400px',
+                        transform: `translateY(${translateY})`,
+                        boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
+                      }}
+                    >
+                      <Image
+                        src={src}
+                        alt={`Hero image ${index + 1}`}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  )
+                })}
               </div>
             </div>
           </div>

@@ -21,9 +21,9 @@ export default function TrustSection() {
 
   return (
     <>
-      <section id="trust" className="w-full relative py-16 section-bg-light trust-section-partial">
+      <section id="trust" className="w-full relative pt-16 pb-12 section-bg-light trust-section-partial">
         <Section>
-          <div className="col-span-12 relative z-10 flex justify-center">
+          <div className="col-span-12 relative pb-4 z-10 flex justify-center">
             <div className="trust-box-container relative">
               {bgHeight > 0 && (
                 <div 
@@ -33,7 +33,7 @@ export default function TrustSection() {
               )}
               <div 
                 ref={trustBoxRef}
-                className="trust-box bg-white rounded-2xl border-2 border-gray-300 p-8 sm:p-12 relative z-10"
+                className="trust-box bg-white rounded-2xl shadow-lg p-8 relative z-10"
               >
               <div className="text-center space-y-6">
                 {/* Title */}

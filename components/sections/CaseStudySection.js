@@ -1,6 +1,7 @@
 import Section from '../base/Section'
 import Button from '../base/Button'
 import AnimatedSquares from '../base/AnimatedSquares'
+import { IoCheckmarkCircle } from 'react-icons/io5'
 import { useRef } from 'react'
 
 export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
@@ -22,13 +23,14 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             
             {/* Sub-section 1 */}
             <div className="space-y-2">
-              <h3 className="text-neutral-800" style={{ 
+              <h3 className="text-neutral-800 flex items-center space-x-3" style={{ 
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '18px',
                 fontWeight: 500,
                 lineHeight: '28px'
               }}>
-                Control Over Stock
+                <IoCheckmarkCircle size={24} className="text-primary flex-shrink-0" />
+                <span>Control Over Stock</span>
               </h3>
               <p className="text-neutral-600" style={{ 
                 fontFamily: 'Poppins, sans-serif',
@@ -42,13 +44,14 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             
             {/* Sub-section 2 */}
             <div className="space-y-2">
-              <h3 className="text-neutral-800" style={{ 
+              <h3 className="text-neutral-800 flex items-center space-x-3" style={{ 
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '18px',
                 fontWeight: 500,
                 lineHeight: '28px'
               }}>
-                Decisions Driven by Data
+                <IoCheckmarkCircle size={24} className="text-primary flex-shrink-0" />
+                <span>Decisions Driven by Data</span>
               </h3>
               <p className="text-neutral-600" style={{ 
                 fontFamily: 'Poppins, sans-serif',
@@ -62,13 +65,14 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             
             {/* Sub-section 3 */}
             <div className="space-y-2">
-              <h3 className="text-neutral-800" style={{ 
+              <h3 className="text-neutral-800 flex items-center space-x-3" style={{ 
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '18px',
                 fontWeight: 500,
                 lineHeight: '28px'
               }}>
-                Expanding Into ERP
+                <IoCheckmarkCircle size={24} className="text-primary flex-shrink-0" />
+                <span>Expanding Into ERP</span>
               </h3>
               <p className="text-neutral-600" style={{ 
                 fontFamily: 'Poppins, sans-serif',

@@ -1,5 +1,5 @@
 import Section from '../base/Section'
-import { IoCheckmarkCircleOutline } from 'react-icons/io5'
+import { IoCheckmarkCircle } from 'react-icons/io5'
 import AnimatedSquares from '../base/AnimatedSquares'
 import { useRef } from 'react'
 
@@ -46,8 +46,8 @@ export default function ProblemsSection({ onBookCall }) {
             </p>
             
             <div className="space-y-1.5 sm:space-y-2 mt-4">
-              <div className="flex items-start space-x-3">
-                <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
+              <div className="flex items-center space-x-3">
+                <IoCheckmarkCircle className="text-primary flex-shrink-0" size={24} />
                 <span className="text-neutral-800" style={{ 
                   fontFamily: 'Poppins, sans-serif',
                   fontSize: '16px',
@@ -55,8 +55,8 @@ export default function ProblemsSection({ onBookCall }) {
                   lineHeight: '24px'
                 }}>Too much manual paperwork</span>
               </div>
-              <div className="flex items-start space-x-3">
-                <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
+              <div className="flex items-center space-x-3">
+                <IoCheckmarkCircle className="text-primary flex-shrink-0" size={24} />
                 <span className="text-neutral-800" style={{ 
                   fontFamily: 'Poppins, sans-serif',
                   fontSize: '16px',
@@ -64,8 +64,8 @@ export default function ProblemsSection({ onBookCall }) {
                   lineHeight: '24px'
                 }}>Stock going missing or hard to track</span>
               </div>
-              <div className="flex items-start space-x-3">
-                <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
+              <div className="flex items-center space-x-3">
+                <IoCheckmarkCircle className="text-primary flex-shrink-0" size={24} />
                 <span className="text-neutral-800" style={{ 
                   fontFamily: 'Poppins, sans-serif',
                   fontSize: '16px',
@@ -73,8 +73,8 @@ export default function ProblemsSection({ onBookCall }) {
                   lineHeight: '24px'
                 }}>Approvals take too long</span>
               </div>
-              <div className="flex items-start space-x-3">
-                <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
+              <div className="flex items-center space-x-3">
+                <IoCheckmarkCircle className="text-primary flex-shrink-0" size={24} />
                 <span className="text-neutral-800" style={{ 
                   fontFamily: 'Poppins, sans-serif',
                   fontSize: '16px',
@@ -82,8 +82,8 @@ export default function ProblemsSection({ onBookCall }) {
                   lineHeight: '24px'
                 }}>Decisions made without reliable data</span>
               </div>
-              <div className="flex items-start space-x-3">
-                <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
+              <div className="flex items-center space-x-3">
+                <IoCheckmarkCircle className="text-primary flex-shrink-0" size={24} />
                 <span className="text-neutral-800" style={{ 
                   fontFamily: 'Poppins, sans-serif',
                   fontSize: '16px',
