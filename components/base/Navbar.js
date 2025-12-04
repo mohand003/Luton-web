@@ -32,7 +32,7 @@ export default function Navbar() {
             </ul>
           </div>
           <button
-            className="lg:hidden rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            className="lg:hidden rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all duration-300 hover:bg-gray-100 hover:scale-110 active:scale-95"
             onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
           >

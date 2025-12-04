@@ -77,7 +77,7 @@ export default function ServicesSection() {
                 key={index}
                 data-aos="fade-up" 
                 data-aos-delay={index * 150}
-                className="bg-white p-8 rounded-xl shadow-lg transition-shadow duration-300"
+                className="bg-white p-8 rounded-xl shadow-lg transition-all duration-300 hover:bg-gray-50"
               >
                 <div 
                   className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center"

@@ -5,7 +5,7 @@ export default function Accordion({ accordion }) {
   const [selected, setSelected] = useState(false)
 
   return (
-    <li className="list-none relative bg-white border border-gray-200 rounded-lg transition-all duration-300 focus-within:ring-2 focus-within:ring-primary focus-within:ring-offset-2">
+    <li className="list-none relative bg-white border border-gray-200 rounded-lg transition-all duration-300 focus-within:ring-2 focus-within:ring-primary focus-within:ring-offset-2 hover:bg-gray-50">
       <button 
         type="button" 
         className="w-full px-6 py-5 text-left focus:outline-none rounded-lg transition-all duration-300"

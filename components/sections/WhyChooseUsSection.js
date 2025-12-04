@@ -69,7 +69,7 @@ export default function WhyChooseUsSection() {
                 key={index}
                 data-aos="fade-up" 
                 data-aos-delay={index * 150}
-                className="bg-white p-8 rounded-xl flex flex-col items-center text-center"
+                className="bg-white p-8 rounded-xl flex flex-col items-center text-center transition-all duration-300 hover:bg-gray-50"
                 style={{ border: 'none', boxShadow: 'none' }}
               >
                 <div 

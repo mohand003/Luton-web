@@ -76,10 +76,9 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
             </Button>
             <Button 
               onClick={onSeeHowItWorks}
-              className="max-w-full px-6 py-4 bg-inherit text-gradient flex items-center justify-center cursor-pointer"
+              className="max-w-full px-6 py-4 bg-inherit text-gradient flex items-center justify-center cursor-pointer border-2 border-primary"
               style={{ 
                 boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
-                border: 'none',
                 outline: 'none'
               }}
             >
