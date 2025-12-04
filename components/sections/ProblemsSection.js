@@ -111,10 +111,10 @@ export default function ProblemsSection({ onBookCall }) {
               fontWeight: 400,
               lineHeight: '26px'
             }}>
-              Subject to business and operational terms which will be available at consultation.
+              Luton Engineering faced the same challenges most organisations struggle with. As you grow, these issues start to show up everywhere:
             </p>
             
-            <div className="space-y-3 sm:space-y-4 mt-6 sm:mt-8">
+            <div className="space-y-1.5 sm:space-y-2 mt-6 sm:mt-8">
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
                 <span className="text-neutral-800" style={{ 
@@ -149,7 +149,7 @@ export default function ProblemsSection({ onBookCall }) {
                   fontSize: '16px',
                   fontWeight: 400,
                   lineHeight: '24px'
-                }}>Reports arrive late or with wrong numbers</span>
+                }}>Decisions made without reliable data</span>
               </div>
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
@@ -158,21 +158,12 @@ export default function ProblemsSection({ onBookCall }) {
                   fontSize: '16px',
                   fontWeight: 400,
                   lineHeight: '24px'
-                }}>Systems don't match how people actually work</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
-                <span className="text-neutral-800" style={{ 
-                  fontFamily: 'Poppins, sans-serif',
-                  fontSize: '16px',
-                  fontWeight: 400,
-                  lineHeight: '24px'
-                }}>Dependence on 'one key person' for everything</span>
+                }}>Dependence on "one key person" for everything</span>
               </div>
             </div>
             
             <p className="text-lg sm:text-xl font-semibold text-neutral-800 mt-4 sm:mt-6" style={{ fontWeight: 600 }}>
-              We solved all these problems inside Luton Engineering — and we can help you do the same.
+              We spent 4+ years solving these problems inside Luton Engineering. Now we help other businesses do the same.
             </p>
           </div>
         </div>

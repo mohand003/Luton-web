@@ -41,7 +41,7 @@ export default function ServicesSection() {
             }}>
               Built from real warehouse operations at Luton Engineering.
             </p>
-            <ul className="space-y-2 text-left list-none" style={{ 
+            <ul className="space-y-1 text-left list-none" style={{ 
               fontFamily: 'Poppins, sans-serif',
               fontSize: '16px',
               fontWeight: 400,
@@ -77,7 +77,7 @@ export default function ServicesSection() {
             }}>
               Designed for Ghana companies who want to digitise slowly, one department at a time.
             </p>
-            <ul className="space-y-2 text-left list-none" style={{ 
+            <ul className="space-y-1 text-left list-none" style={{ 
               fontFamily: 'Poppins, sans-serif',
               fontSize: '16px',
               fontWeight: 400,
@@ -105,7 +105,7 @@ export default function ServicesSection() {
               fontWeight: 500,
               lineHeight: '28px'
             }}>3. Automation & AI</h3>
-            <ul className="space-y-2 text-left list-none" style={{ 
+            <ul className="space-y-1 text-left list-none" style={{ 
               fontFamily: 'Poppins, sans-serif',
               fontSize: '16px',
               fontWeight: 400,

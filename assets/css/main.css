@@ -130,7 +130,10 @@ input[type=number] {
 }
 /* استثناء للهايلايتس البرتقالية */
 .section-bg-light span[style*="#FC5012"],
-.section-bg-light span[style*="color: '#FC5012'"] {
+.section-bg-light span[style*="color: '#FC5012'"],
+.section-bg-light p[style*="#FC5012"],
+.section-bg-light p[style*="color: '#FC5012'"],
+.section-bg-light .hero-orange-text {
   color: #FC5012 !important;
 }
 .section-bg-light .badge-orange,

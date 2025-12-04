@@ -101,7 +101,7 @@ export default function WhoWeHelpSection() {
             <p className="text-lg sm:text-xl md:text-2xl" style={{ fontWeight: 400, lineHeight: 1.6 }}>
               We work with various industries across Ghana, helping them streamline operations and improve efficiency.
             </p>
-            <ul className="space-y-5 text-left list-none" style={{ 
+            <ul className="space-y-2 text-left list-none" style={{ 
               fontFamily: 'Poppins, sans-serif',
               fontSize: '16px',
               fontWeight: 400,

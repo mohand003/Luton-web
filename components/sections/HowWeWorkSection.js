@@ -29,9 +29,9 @@ export default function HowWeWorkSection() {
         <div className="col-span-12 text-center space-y-4 px-4 mb-12">
           <h2 data-aos="fade-up" style={{ 
             fontFamily: 'Poppins, sans-serif',
-            fontSize: '36px',
+            fontSize: '20px',
             fontWeight: 600,
-            lineHeight: '40px'
+            lineHeight: '28px'
           }}>
             Our simple <span style={{ color: '#FC5012' }}>3-step process</span>
           </h2>
@@ -39,7 +39,7 @@ export default function HowWeWorkSection() {
         <div className="col-span-12">
           <div
             data-aos="fade-up"
-            className="relative w-full flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 px-4 xl:px-10"
+            className="relative w-full flex flex-col lg:flex-row items-stretch justify-between space-y-12 lg:space-y-0 px-4 xl:px-10"
           >
             {steps.map((step, index) => (
               <Step key={index} step={step} />

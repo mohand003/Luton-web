@@ -43,7 +43,7 @@ export default function TrustSection() {
                   fontWeight: 600,
                   lineHeight: '32px'
                 }}>
-                  Trusted by organisations in the <span style={{ color: '#FC5012' }}>UK & Ghana</span>:
+                  Built by People with <span style={{ color: '#FC5012' }}>Global Experience</span>
                 </h2>
                 
                 {/* Description */}
@@ -53,33 +53,53 @@ export default function TrustSection() {
                   fontWeight: 400,
                   lineHeight: '26px'
                 }}>
-                  We combine UK-grade delivery with deep understanding of Ghana operations.
+                  Our specialists have contributed to complex digital programmes for top-tier organisations, bringing that expertise into every project we deliver.
                 </p>
                 
                 {/* Logos below */}
                 <div data-aos="fade-up" data-aos-delay="300" className="flex flex-wrap items-center justify-center gap-8 lg:gap-12 mt-6">
                   {/* Barclays */}
                   <div className="flex items-center justify-center">
-                    <div className="text-xl font-bold text-neutral-800" style={{ color: '#00AEEF', letterSpacing: '2px', fontFamily: 'Poppins, sans-serif' }}>BARCLAYS</div>
+                    <Image
+                      src="/assets/img/Barclays.png"
+                      alt="Barclays"
+                      width={150}
+                      height={80}
+                      className="h-16 w-auto object-contain"
+                    />
                   </div>
                   
                   {/* Sony */}
                   <div className="flex items-center justify-center">
-                    <div className="text-2xl font-bold text-neutral-800" style={{ color: '#000000', fontFamily: 'Poppins, sans-serif' }}>SONY</div>
+                    <Image
+                      src="/assets/img/sony.png"
+                      alt="Sony"
+                      width={120}
+                      height={60}
+                      className="h-12 w-auto object-contain"
+                    />
                   </div>
                   
                   {/* NHS */}
-                  <div className="flex items-center justify-center gap-2">
-                    <div className="w-3 h-12 bg-blue-600"></div>
-                    <div className="text-xl font-bold" style={{ color: '#005EB8', fontFamily: 'Poppins, sans-serif' }}>NHS</div>
+                  <div className="flex items-center justify-center">
+                    <Image
+                      src="/assets/img/nhs.jpeg"
+                      alt="NHS"
+                      width={100}
+                      height={60}
+                      className="h-12 w-auto object-contain"
+                    />
                   </div>
                   
                   {/* Department for Education */}
                   <div className="flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="text-xs font-semibold text-neutral-800 leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>Department for</div>
-                      <div className="text-sm font-bold text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif' }}>Education</div>
-                    </div>
+                    <Image
+                      src="/assets/img/department for education.png"
+                      alt="Department for Education"
+                      width={180}
+                      height={80}
+                      className="h-16 w-auto object-contain"
+                    />
                   </div>
                   
                   {/* Luton Engineering */}

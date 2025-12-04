@@ -7,6 +7,21 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
     <section id="hero" className="w-full py-16 section-bg-light hero-bg-extended">
       <Section>
         <div className="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
+          <p
+            data-aos="fade-right"
+            data-aos-once="true"
+            className="sm:pr-8 xl:pr-10 hero-orange-text"
+            style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '16px',
+              fontWeight: 600,
+              lineHeight: '24px',
+              textTransform: 'uppercase',
+              color: '#FC5012'
+            }}
+          >
+            Built For Growth
+          </p>
           <h1
             data-aos="fade-right"
             data-aos-once="true"
@@ -18,9 +33,7 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
               lineHeight: '48px'
             }}
           >
-            We are our own <span style={{ color: '#FC5012' }}>case study</span>.
-            <br />
-            UK-level systems, proven inside Luton Engineering, now built for Ghana.
+            UK Expertise, <span style={{ color: '#FC5012' }}>Delivered for</span> Businesses in Ghana
           </h1>
           <p 
             data-aos="fade-down" 
@@ -33,11 +46,7 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
               lineHeight: '26px'
             }}
           >
-            We first built these systems for Luton Engineering in the UK.
-            <br />
-            We use them every day.
-            <br />
-            Now we bring the same tools and expertise to Ghana — simple, practical, and low-cost to start.
+            Built and proven inside Luton Engineering, our systems help businesses cut costs and improve operations with simple, reliable digital tools.
           </p>
           <div
             data-aos="fade-up"
