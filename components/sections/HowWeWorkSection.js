@@ -3,7 +3,7 @@ import Step from '../landing/Step'
 
 const steps = [
   {
-    img: 'transmission+lines-1920w.webp',
+    img: 'civil-engineering-side-320w.webp',
     title: 'Free Discovery Call',
     description:
       'We learn about your business and identify your biggest challenges.',
