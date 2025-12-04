@@ -6,7 +6,7 @@ export default function Step({ step }) {
       <Image
         src={`/assets/img/${step.img}`}
         alt=""
-        className="max-w-[300px] mx-auto mb-6 sm:mb-4"
+        className="max-w-[300px] mx-auto mb-6 sm:mb-4 rounded-lg"
         width={300}
         height={240}
       />
