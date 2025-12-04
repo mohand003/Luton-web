@@ -5,7 +5,7 @@ export default function WhyChooseUsSection() {
   return (
     <section id="why-choose-us" className="w-full py-16 section-bg-light">
       <Section>
-        <div className="col-span-12 text-center space-y-4 px-4 mb-12">
+        <div className="col-span-12 text-center space-y-4 px-4 mb-16">
           <h2 data-aos="fade-up" style={{ 
             fontFamily: 'Poppins, sans-serif',
             fontSize: '36px',
@@ -16,7 +16,7 @@ export default function WhyChooseUsSection() {
           </h2>
         </div>
         <div className="col-span-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
-          <div data-aos="fade-up" className="bg-white p-6 rounded-lg">
+          <div data-aos="fade-up" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="flex justify-center mb-4">
               <IoCheckmarkCircleOutline className="text-4xl text-primary" />
             </div>
@@ -35,7 +35,7 @@ export default function WhyChooseUsSection() {
               Most ERP vendors sell software. We prove ours works inside Luton Engineering every day.
             </p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="150" className="bg-white p-6 rounded-lg shadow-md">
+          <div data-aos="fade-up" data-aos-delay="150" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="flex justify-center mb-4">
               <IoGlobeOutline className="text-4xl text-primary" />
             </div>
@@ -54,7 +54,7 @@ export default function WhyChooseUsSection() {
               We deliver with the same discipline used for Barclays, NHS, and UK government. But we design for Ghana realities: internet issues, slow approvals, local workflows.
             </p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-6 rounded-lg shadow-md">
+          <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="flex justify-center mb-4">
               <IoRocketOutline className="text-4xl text-primary" />
             </div>
@@ -73,7 +73,7 @@ export default function WhyChooseUsSection() {
               No big upfront cost. Begin with one site or one department.
             </p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="450" className="bg-white p-6 rounded-lg shadow-md">
+          <div data-aos="fade-up" data-aos-delay="450" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
             <div className="flex justify-center mb-4">
               <IoConstructOutline className="text-4xl text-primary" />
             </div>
@@ -92,7 +92,7 @@ export default function WhyChooseUsSection() {
               Competitors jump straight to features. We first understand how you work, then build the right system.
             </p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="600" className="bg-white p-6 rounded-lg shadow-md sm:col-span-2 lg:col-span-1">
+          <div data-aos="fade-up" data-aos-delay="600" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300 sm:col-span-2 lg:col-span-1">
             <div className="flex justify-center mb-4">
               <IoFlashOutline className="text-4xl text-primary" />
             </div>
