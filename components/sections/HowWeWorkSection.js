@@ -3,19 +3,19 @@ import Step from '../landing/Step'
 
 const steps = [
   {
-    img: 'Gemini_Generated_Image_op61ekop61ekop61-removebg-preview.png',
+    img: 'transmission+lines-1920w.webp',
     title: 'Free Discovery Call',
     description:
       'We learn about your business and identify your biggest challenges.',
   },
   {
-    img: 'Gemini_Generated_Image_7xeqfz7xeqfz7xeq-removebg-preview.png',
+    img: 'parallax+2-1920w.webp',
     title: 'Quick Site or Process Review',
     description:
       'We visit your site or review your workflow. You get a short plan with options and simple costs.',
   },
   {
-    img: 'Gemini_Generated_Image_p1au4ip1au4ip1au-removebg-preview.png',
+    img: 'primary+substations-1920w.webp',
     title: 'Pilot First, Then Scale',
     description:
       'We launch a small pilot that shows real results. If it works, we expand. If not, you stop — no risk.',
