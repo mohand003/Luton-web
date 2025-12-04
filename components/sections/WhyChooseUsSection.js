@@ -69,26 +69,23 @@ export default function WhyChooseUsSection() {
                 key={index}
                 data-aos="fade-up" 
                 data-aos-delay={index * 150}
-                className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300 flex flex-col"
+                className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300 flex flex-col items-center text-center"
               >
                 <div 
-                  className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center flex-shrink-0"
-                  style={{ backgroundColor: reason.iconBg }}
+                  className="w-16 h-16 rounded-full mb-4 flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: 'rgba(252, 80, 18, 0.1)' }}
                 >
-                  <IconComponent className="text-white" size={28} />
+                  <IconComponent className="text-[#FC5012]" size={32} />
                 </div>
                 <h3 className="text-gray-800 mb-3 flex-shrink-0" style={{ 
                   fontFamily: 'Poppins, sans-serif',
                   fontSize: '20px',
                   fontWeight: 600,
-                  lineHeight: '28px',
-                  minHeight: '56px',
-                  display: 'flex',
-                  alignItems: 'flex-start'
+                  lineHeight: '28px'
                 }}>
                   {reason.title}
                 </h3>
-                <p className="text-gray-600 flex-grow" style={{ 
+                <p className="text-gray-600" style={{ 
                   fontFamily: 'Poppins, sans-serif',
                   fontSize: '14px',
                   fontWeight: 400,
