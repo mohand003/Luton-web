@@ -116,8 +116,8 @@ export default function ContactSection() {
               {/* Left Side - Contact Info */}
               <div data-aos="fade-right" className="space-y-8">
                 <div>
-                  <span className="badge-orange text-white inline-block px-4 py-2 text-base sm:text-lg font-semibold uppercase tracking-wider rounded-md" style={{ fontWeight: 600, backgroundColor: '#FC5012', color: '#FFFFFF' }}>Support</span>
-                  <h2 className="text-neutral-800 mt-2" style={{ 
+                  <span className="text-base sm:text-lg font-semibold uppercase tracking-wider" style={{ fontWeight: 600, color: '#FC5012' }}>Support</span>
+                  <h2 className="text-neutral-800 mt-1" style={{ 
                     fontFamily: 'Poppins, sans-serif',
                     fontSize: '36px',
                     fontWeight: 600,
@@ -331,7 +331,7 @@ export default function ContactSection() {
                   
                   <Button
                     type="submit"
-                    className="w-full px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-semibold rounded-lg"
+                    className="w-full px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-semibold"
                   >
                     Send message
                   </Button>

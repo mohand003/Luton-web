@@ -34,7 +34,7 @@ export default function FAQSection() {
     <section id="faq" className="w-full py-12 lg:py-16 lg:pb-24 bg-white">
       <Section>
         <div data-aos="fade-right" data-aos-delay="150" className="col-span-12 lg:col-span-6 px-4 sm:px-6 order-2 lg:order-1">
-          <span className="badge-orange inline-block px-4 py-2 text-base sm:text-lg font-semibold uppercase tracking-wider text-white rounded-md mb-4 sm:mb-2" style={{ fontWeight: 600, backgroundColor: '#FC5012', color: 'white' }}>Quick Support</span>
+          <span className="text-base sm:text-lg font-semibold uppercase tracking-wider mb-4 sm:mb-2" style={{ fontWeight: 600, color: '#FC5012' }}>Quick Support</span>
           <h2 className="mb-8 sm:mb-6 text-neutral-800" style={{ 
             fontFamily: 'Poppins, sans-serif',
             fontSize: '36px',
