@@ -138,6 +138,24 @@ export default function Home() {
         .animate-rotate-box-4 {
           animation: rotate-box-4 9s ease-in-out infinite;
         }
+        
+        @keyframes rotate-image-around-center {
+          0% {
+            transform: rotate(calc(var(--start-angle, 0deg))) translateY(-160px);
+          }
+          100% {
+            transform: rotate(calc(var(--start-angle, 0deg) + 360deg)) translateY(-160px);
+          }
+        }
+        
+        @keyframes counter-rotate-image {
+          0% {
+            transform: rotate(calc(var(--start-counter-angle, 0deg)));
+          }
+          100% {
+            transform: rotate(calc(var(--start-counter-angle, 0deg) - 360deg));
+          }
+        }
       `}</style>
     </>
   )
