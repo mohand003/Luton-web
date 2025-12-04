@@ -6,21 +6,21 @@ export default function ScrollToTopSection() {
   }
 
   return (
-    <section className="w-full py-16 section-bg-light">
+    <section className="w-full py-12 section-bg-light">
       <div className="w-full flex justify-center">
-        <a
+        <button
           data-aos="flip-down"
           data-aos-delay="150"
-          href="#navbar"
-          onClick={(e) => {
-            e.preventDefault()
-            handleScrollToTop()
+          onClick={handleScrollToTop}
+          className="px-6 py-3 flex items-center space-x-2 bg-white hover:bg-gray-50 border border-gray-300 rounded-md text-gray-700 transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer"
+          style={{
+            fontFamily: 'Poppins, sans-serif',
+            fontWeight: 500
           }}
-          className="px-6 py-3 flex items-center space-x-2 bg-[#FAFAFA] hover:bg-gray-100 border border-[#DDDDDD] rounded-md text-gray-700"
         >
           <span>Back to top</span>
           <IoArrowUp size={20} />
-        </a>
+        </button>
       </div>
     </section>
   )
