@@ -107,7 +107,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
         </div>
         
         {/* Right Side - Image */}
-        <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-12 lg:mt-0 flex items-center">
+        <div className="hidden lg:flex col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-12 lg:mt-0 items-center">
           <div data-aos="fade-left" className="relative w-full flex items-center justify-center">
             <div ref={imageContainerRef} className="relative w-full rounded-lg overflow-visible min-h-[300px] p-6" style={{ backgroundColor: '#F5F5F5' }}>
               <AnimatedSquares containerRef={imageContainerRef} />

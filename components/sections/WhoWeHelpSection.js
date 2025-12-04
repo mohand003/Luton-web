@@ -10,7 +10,7 @@ export default function WhoWeHelpSection() {
     <section id="who-we-help" className="w-full py-16 section-bg-light">
       <Section>
         {/* Left Side - Image */}
-        <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8 mt-8 lg:mt-0 flex items-center justify-center lg:justify-start">
+        <div className="hidden lg:flex col-span-12 lg:col-span-6 px-4 lg:pr-8 mt-8 lg:mt-0 items-center justify-center lg:justify-start">
           <div data-aos="fade-right" className="relative w-full max-w-lg">
             <div ref={imageContainerRef} className="relative w-full rounded-lg overflow-visible min-h-[300px] p-6">
               <AnimatedSquares containerRef={imageContainerRef} />

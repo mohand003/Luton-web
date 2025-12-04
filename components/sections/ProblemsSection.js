@@ -8,7 +8,7 @@ export default function ProblemsSection({ onBookCall }) {
   return (
     <section id="problems" className="w-full py-16 bg-white">
       <Section>
-        <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8">
+        <div className="hidden lg:block col-span-12 lg:col-span-6 px-4 lg:pr-8">
           {/* Left Side - Image */}
           <div data-aos="fade-right" className="relative flex items-center justify-center lg:justify-start h-full">
             <div ref={imageContainerRef} className="relative w-full max-w-full rounded-lg overflow-visible bg-white min-h-[300px] p-6">
