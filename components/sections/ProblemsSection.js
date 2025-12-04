@@ -6,7 +6,7 @@ import { useRef } from 'react'
 export default function ProblemsSection({ onBookCall }) {
   const imageContainerRef = useRef(null)
   return (
-    <section id="problems" className="w-full py-16 bg-white">
+    <section id="problems" className="w-full py-12 lg:py-16 bg-white">
       <Section>
         <div className="hidden lg:block col-span-12 lg:col-span-6 px-4 lg:pr-8">
           {/* Left Side - Image */}
@@ -25,7 +25,7 @@ export default function ProblemsSection({ onBookCall }) {
         </div>
 
         {/* Right Side - Text Content */}
-        <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-8 lg:mt-0 flex items-center">
+        <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 lg:mt-0 flex items-center">
           <div data-aos="fade-left" className="space-y-4 w-full">
             <h2 className="text-neutral-800" style={{ 
               fontFamily: 'Poppins, sans-serif',

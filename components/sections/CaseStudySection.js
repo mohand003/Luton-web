@@ -7,9 +7,9 @@ import { useRef } from 'react'
 export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
   const imageContainerRef = useRef(null)
   return (
-    <section id="case-study" className="w-full pt-16 pb-12 section-bg-light">
+    <section id="case-study" className="w-full py-12 lg:pt-16 lg:pb-12 section-bg-light">
       <Section>
-        <div className="col-span-12 lg:col-span-6 pb-4 px-4 lg:pr-8 mt-8 lg:mt-0 flex items-center">
+        <div className="col-span-12 lg:col-span-6 pb-4 px-4 lg:pr-8 lg:mt-0 flex items-center">
           <div data-aos="fade-right" className="space-y-3 w-full">
             {/* Main Heading */}
             <h2 className="text-neutral-800" style={{ 

@@ -24,7 +24,7 @@ const steps = [
 
 export default function HowWeWorkSection() {
   return (
-    <section id="how-we-work" className="w-full py-16 bg-white">
+    <section id="how-we-work" className="w-full py-12 lg:py-16 bg-white">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-12">
           <h2 data-aos="fade-up" style={{ 

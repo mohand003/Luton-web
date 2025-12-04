@@ -21,7 +21,7 @@ export default function TrustSection() {
 
   return (
     <>
-      <section id="trust" className="w-full relative pt-16 pb-12 section-bg-light trust-section-partial">
+      <section id="trust" className="w-full relative py-12 lg:pt-16 lg:pb-12 section-bg-light trust-section-partial">
         <Section>
           <div className="col-span-12 relative pb-4 z-10 flex justify-center">
             <div className="trust-box-container relative">

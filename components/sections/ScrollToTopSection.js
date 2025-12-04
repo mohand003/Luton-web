@@ -6,7 +6,7 @@ export default function ScrollToTopSection() {
   }
 
   return (
-    <section className="w-full py-12 section-bg-light">
+    <section className="w-full py-12 lg:py-12 section-bg-light">
       <div className="w-full flex justify-center">
         <button
           data-aos="flip-down"

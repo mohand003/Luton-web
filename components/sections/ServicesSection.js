@@ -49,7 +49,7 @@ export default function ServicesSection() {
   ]
 
   return (
-    <section id="services" className="w-full pt-16 pb-12 bg-white">
+    <section id="services" className="w-full py-12 lg:pt-16 lg:pb-12 bg-white">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-16">
           <h2 data-aos="fade-up" className="text-neutral-800" style={{

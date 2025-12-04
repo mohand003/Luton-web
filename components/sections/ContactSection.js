@@ -109,7 +109,7 @@ export default function ContactSection() {
 
   return (
     <>
-      <section id="contact" className="w-full py-16 section-bg-light">
+      <section id="contact" className="w-full py-12 lg:py-16 section-bg-light">
         <Section>
           <div className="col-span-12">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 px-4">

@@ -7,7 +7,7 @@ import { useRef } from 'react'
 export default function WhoWeHelpSection() {
   const imageContainerRef = useRef(null)
   return (
-    <section id="who-we-help" className="w-full py-16 section-bg-light">
+    <section id="who-we-help" className="w-full py-12 lg:py-16 section-bg-light">
       <Section>
         {/* Left Side - Image */}
         <div className="hidden lg:flex col-span-12 lg:col-span-6 px-4 lg:pr-8 mt-8 lg:mt-0 items-center justify-center lg:justify-start">
@@ -28,7 +28,7 @@ export default function WhoWeHelpSection() {
         </div>
 
         {/* Right Side - Text Content */}
-        <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-12 lg:mt-0 flex items-center">
+        <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 lg:mt-0 flex items-center">
           <div data-aos="fade-left" className="space-y-7 w-full">
             <h2 className="text-gray-800" style={{ 
               fontFamily: 'Poppins, sans-serif',

@@ -49,7 +49,7 @@ export default function WhyChooseUsSection() {
   ]
 
   return (
-    <section id="why-choose-us" className="w-full py-16 section-bg-light">
+    <section id="why-choose-us" className="w-full py-12 lg:py-16 section-bg-light">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-16">
           <h2 data-aos="fade-up" style={{ 
