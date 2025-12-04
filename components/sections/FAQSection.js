@@ -37,7 +37,7 @@ export default function FAQSection() {
             fontWeight: 600,
             lineHeight: '40px'
           }}>Frequently asked <span style={{ color: '#FC5012' }}>questions</span></h2>
-          <div className="space-y-4 pb-0">
+          <div className="space-y-4 pb-1">
             {accordions.map((accordion, index) => (
               <Accordion key={index} accordion={accordion} />
             ))}
