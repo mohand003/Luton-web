@@ -48,27 +48,39 @@ export default function Layout({ children }) {
         /* Pattern 2 - Light Pattern */
         .section-bg-light {
           position: relative;
-          background: linear-gradient(
-            135deg,
-            rgba(252, 80, 18, 0.06) 0%,
-            rgba(252, 80, 18, 0.03) 50%,
-            rgba(212, 62, 15, 0.06) 100%
-          ) !important;
+          background: #F5F5F5 !important;
         }
         .section-bg-light::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-image: 
-            radial-gradient(circle at 20% 50%, rgba(252, 80, 18, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 80% 80%, rgba(212, 62, 15, 0.1) 0%, transparent 50%);
-          background-size: 600px 600px;
-          background-position: -100px -100px, 100% 100%;
-          pointer-events: none;
-          z-index: 0;
+          display: none;
+        }
+        /* استثناء Trust Section - برتقالي فاتح سادة في النصف العلوي، أبيض في النصف السفلي */
+        #trust.section-bg-light,
+        .section-bg-light.trust-section-partial {
+          background: linear-gradient(
+            to bottom,
+            rgba(252, 80, 18, 0.05) 0%,
+            rgba(252, 80, 18, 0.05) 50%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 1) 100%
+          ) !important;
+        }
+        #trust.section-bg-light::before,
+        .section-bg-light.trust-section-partial::before {
+          display: none !important;
+        }
+        /* استثناء Hero Section - خلفية برتقالية فاتحة سادة */
+        .section-bg-light.hero-bg-extended {
+          background: rgba(252, 80, 18, 0.05) !important;
+        }
+        .section-bg-light.hero-bg-extended::before {
+          display: none !important;
+        }
+        /* استثناء Navbar - خلفية برتقالية فاتحة سادة */
+        #navbar.section-bg-light {
+          background: rgba(252, 80, 18, 0.05) !important;
+        }
+        #navbar.section-bg-light::before {
+          display: none !important;
         }
         .section-bg-light > * {
           position: relative;

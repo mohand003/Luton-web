@@ -127,33 +127,16 @@ export default function TrustSection() {
         .trust-section-partial {
           background: linear-gradient(
             to bottom,
-            rgba(252, 80, 18, 0.06) 0%,
-            rgba(252, 80, 18, 0.05) 5%,
-            rgba(252, 80, 18, 0.04) 10%,
-            rgba(252, 80, 18, 0.03) 20%,
-            rgba(212, 62, 15, 0.04) 25%,
-            rgba(212, 62, 15, 0.03) 30%,
-            rgba(255, 255, 255, 0.98) 45%,
+            rgba(252, 80, 18, 0.05) 0%,
+            rgba(252, 80, 18, 0.05) 50%,
             rgba(255, 255, 255, 1) 50%,
             rgba(255, 255, 255, 1) 100%
-          );
+          ) !important;
           position: relative;
         }
         
         .trust-section-partial::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          height: 50%;
-          background-image: 
-            radial-gradient(circle at 20% 50%, rgba(252, 80, 18, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 80% 80%, rgba(212, 62, 15, 0.1) 0%, transparent 50%);
-          background-size: 600px 600px;
-          background-position: -100px -100px, 100% 100%;
-          pointer-events: none;
-          z-index: 0;
+          display: none !important;
         }
         
         .trust-box-container {
