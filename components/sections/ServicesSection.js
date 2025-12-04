@@ -4,7 +4,7 @@ import { IoCubeOutline, IoGridOutline, IoSparklesOutline, IoConstructOutline } f
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="w-full py-20 bg-white">
+    <section id="services" className="w-full py-16 bg-white">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-16">
           <h2 data-aos="fade-up" className="text-neutral-800" style={{

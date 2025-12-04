@@ -3,7 +3,7 @@ import { IoCheckmarkCircleOutline } from 'react-icons/io5'
 
 export default function ProblemsSection({ onBookCall }) {
   return (
-    <section id="problems" className="w-full py-20 bg-white">
+    <section id="problems" className="w-full py-16 bg-white">
       <Section>
         <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8">
           {/* Left Side - Credit Cards Style Visualization */}

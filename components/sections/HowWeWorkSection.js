@@ -29,9 +29,9 @@ export default function HowWeWorkSection() {
         <div className="col-span-12 text-center space-y-4 px-4 mb-12">
           <h2 data-aos="fade-up" style={{ 
             fontFamily: 'Poppins, sans-serif',
-            fontSize: '20px',
+            fontSize: '36px',
             fontWeight: 600,
-            lineHeight: '28px'
+            lineHeight: '40px'
           }}>
             Our simple <span style={{ color: '#FC5012' }}>3-step process</span>
           </h2>

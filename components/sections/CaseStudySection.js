@@ -1,4 +1,5 @@
 import Section from '../base/Section'
+import Button from '../base/Button'
 
 export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
   return (
@@ -24,7 +25,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
                 fontWeight: 500,
                 lineHeight: '28px'
               }}>
-                Built for our own operations
+                Control Over Stock
               </h3>
               <p className="text-neutral-600" style={{ 
                 fontFamily: 'Poppins, sans-serif',
@@ -32,7 +33,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
                 fontWeight: 400,
                 lineHeight: '22.75px'
               }}>
-                We first built these systems to solve real problems inside Luton Engineering. We use them every day to manage inventory, track projects, and streamline approvals. This isn't theory — it's proven in daily use.
+                Luton Engineering delivers projects for public and private sector clients, with 100+ employees and eight warehouses. We needed control over stock in, stock out, and what was issued to projects.
               </p>
             </div>
             
@@ -44,7 +45,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
                 fontWeight: 500,
                 lineHeight: '28px'
               }}>
-                Real results, real data
+                Decisions Driven by Data
               </h3>
               <p className="text-neutral-600" style={{ 
                 fontFamily: 'Poppins, sans-serif',
@@ -52,7 +53,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
                 fontWeight: 400,
                 lineHeight: '22.75px'
               }}>
-                Our Inventory Management System handles thousands of items across multiple sites. Our ERP modules manage finance, purchasing, and production workflows. We know what works because we live with it every day.
+                Once every item passed through our inventory system, we could trust the numbers. Real-time dashboards, KPIs and reports helped us cut waste, control costs, and make better decisions faster.
               </p>
             </div>
             
@@ -64,7 +65,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
                 fontWeight: 500,
                 lineHeight: '28px'
               }}>
-                Tested under real conditions
+                Expanding Into ERP
               </h3>
               <p className="text-neutral-600" style={{ 
                 fontFamily: 'Poppins, sans-serif',
@@ -72,8 +73,28 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
                 fontWeight: 400,
                 lineHeight: '22.75px'
               }}>
-                These systems handle real deadlines, real budgets, and real operational pressure. If something doesn't work, we fix it immediately — because we're the ones using it. That's why we're confident they'll work for you.
+                After fixing inventory, we moved to a phased ERP rollout, starting with our metering projects and then expanding into finance, purchasing and other parts of the business step by step.
               </p>
+            </div>
+
+            {/* Closing Text */}
+            <p className="text-neutral-600 mt-6" style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '14px',
+              fontWeight: 400,
+              lineHeight: '22.75px'
+            }}>
+              It's still work in progress. Let us help you start the journey.
+            </p>
+
+            {/* Button */}
+            <div className="mt-6">
+              <Button 
+                onClick={onBookCall}
+                className="max-w-full px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white cursor-pointer"
+              >
+                Get in touch
+              </Button>
             </div>
           </div>
         </div>
