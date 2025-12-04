@@ -27,7 +27,7 @@ const accordions = [
 
 export default function FAQSection() {
   return (
-    <section id="faq" className="w-full py-16 bg-white">
+    <section id="faq" className="w-full py-16 pb-24 bg-white">
       <Section>
         <div data-aos="fade-right" data-aos-delay="150" className="col-span-12 lg:col-span-6 px-4 sm:px-6 order-2 lg:order-1">
           <span className="badge-orange inline-block px-4 py-2 text-base sm:text-lg font-semibold uppercase tracking-wider text-white rounded-md mb-4 sm:mb-2" style={{ fontWeight: 600, backgroundColor: '#FC5012', color: 'white' }}>Quick Support</span>
@@ -37,14 +37,14 @@ export default function FAQSection() {
             fontWeight: 600,
             lineHeight: '40px'
           }}>Frequently asked <span style={{ color: '#FC5012' }}>questions</span></h2>
-          <div className="space-y-4">
+          <div className="space-y-4 pb-0">
             {accordions.map((accordion, index) => (
               <Accordion key={index} accordion={accordion} />
             ))}
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-delay="150" className="col-span-12 lg:col-span-6 order-1 lg:order-2 flex items-start justify-center lg:justify-end">
-          <div className="w-full max-w-lg lg:max-w-xl mt-8">
+        <div data-aos="fade-left" data-aos-delay="150" className="col-span-12 lg:col-span-6 order-1 lg:order-2 flex items-center justify-center lg:justify-end">
+          <div className="w-full max-w-lg lg:max-w-xl">
             <Image 
               src="/assets/img/slide02-1920w.jpg" 
               className="w-full h-auto object-contain max-h-[500px] rounded-lg" 
