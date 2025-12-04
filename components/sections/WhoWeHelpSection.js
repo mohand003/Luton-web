@@ -45,7 +45,13 @@ export default function WhoWeHelpSection() {
               <ListItem title="Manufacturing & assembly" />
               <ListItem title="Distributors and wholesalers" />
             </ul>
-            <p className="text-xl sm:text-2xl font-semibold text-primary mt-8" style={{ fontWeight: 600 }}>
+            <p style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '14px',
+              fontWeight: 400,
+              lineHeight: '22.75px',
+              marginTop: '8px'
+            }}>
               If you manage stock, equipment, or approvals — we can help.
             </p>
           </div>
