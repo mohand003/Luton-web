@@ -1,19 +1,25 @@
 import Section from '../base/Section'
 import { IoCheckmarkCircleOutline } from 'react-icons/io5'
+import AnimatedSquares from '../base/AnimatedSquares'
+import { useRef } from 'react'
 
 export default function ProblemsSection({ onBookCall }) {
+  const imageContainerRef = useRef(null)
   return (
     <section id="problems" className="w-full py-16 bg-white">
       <Section>
         <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8">
           {/* Left Side - Image */}
           <div data-aos="fade-right" className="relative flex items-center justify-center lg:justify-start h-full">
-            <div className="relative w-full max-w-full rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="/assets/img/AdobeStock_459155812-scaled-3.jpeg" 
-                alt="Warehouse inventory management" 
-                className="w-full h-auto object-cover"
-              />
+            <div ref={imageContainerRef} className="relative w-full max-w-full rounded-lg overflow-visible bg-white min-h-[300px] p-6">
+              <AnimatedSquares containerRef={imageContainerRef} />
+              <div className="relative z-10 rounded-lg overflow-hidden" style={{ width: '85%', margin: '0 auto' }}>
+                <img 
+                  src="/assets/img/AdobeStock_459155812-scaled-3.jpeg" 
+                  alt="Warehouse inventory management" 
+                  className="w-full h-auto object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -87,7 +93,13 @@ export default function ProblemsSection({ onBookCall }) {
               </div>
             </div>
             
-            <p className="text-lg sm:text-xl font-semibold text-neutral-800 mt-4" style={{ fontWeight: 600 }}>
+            <p style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '14px',
+              fontWeight: 400,
+              lineHeight: '22.75px',
+              marginTop: '8px'
+            }}>
               We spent 4+ years solving these problems inside Luton Engineering. Now we help other businesses do the same.
             </p>
           </div>

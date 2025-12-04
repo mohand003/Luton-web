@@ -1,6 +1,8 @@
 import Section from '../base/Section'
 import Accordion from '../base/Accordion'
 import Image from 'next/image'
+import AnimatedSquares from '../base/AnimatedSquares'
+import { useRef } from 'react'
 
 const accordions = [
   {
@@ -26,6 +28,8 @@ const accordions = [
 ]
 
 export default function FAQSection() {
+  const imageContainerRef = useRef(null)
+  
   return (
     <section id="faq" className="w-full py-16 pb-24 bg-white">
       <Section>
@@ -45,13 +49,18 @@ export default function FAQSection() {
         </div>
         <div data-aos="fade-left" data-aos-delay="150" className="col-span-12 lg:col-span-6 order-1 lg:order-2 flex items-center justify-center lg:justify-end">
           <div className="w-full max-w-lg lg:max-w-xl">
-            <Image 
-              src="/assets/img/slide02-1920w.jpg" 
-              className="w-full h-auto object-contain max-h-[500px] rounded-lg" 
-              alt="FAQ" 
-              width={1920} 
-              height={1080} 
-            />
+            <div ref={imageContainerRef} className="relative w-full rounded-lg overflow-visible min-h-[300px] p-6">
+              <AnimatedSquares containerRef={imageContainerRef} />
+              <div className="relative z-10 rounded-lg overflow-hidden" style={{ width: '85%', margin: '0 auto' }}>
+                <Image 
+                  src="/assets/img/slide02-1920w.jpg" 
+                  className="w-full h-auto object-contain max-h-[500px]" 
+                  alt="FAQ" 
+                  width={1920} 
+                  height={1080} 
+                />
+              </div>
+            </div>
           </div>
         </div>
       </Section>

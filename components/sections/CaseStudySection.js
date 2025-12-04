@@ -1,7 +1,10 @@
 import Section from '../base/Section'
 import Button from '../base/Button'
+import AnimatedSquares from '../base/AnimatedSquares'
+import { useRef } from 'react'
 
 export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
+  const imageContainerRef = useRef(null)
   return (
     <section id="case-study" className="w-full py-16 section-bg-light">
       <Section>
@@ -102,11 +105,16 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
         {/* Right Side - Image */}
         <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-12 lg:mt-0 flex items-center">
           <div data-aos="fade-left" className="relative w-full flex items-center justify-center">
-            <img 
-              src="/assets/img/myabcm_myabcm_image_473-scaled-2.jpeg" 
-              alt="We tried it on ourselves first — and it works"
-              className="w-full h-auto rounded-lg shadow-lg object-cover"
-            />
+            <div ref={imageContainerRef} className="relative w-full rounded-lg overflow-visible min-h-[300px] p-6" style={{ backgroundColor: '#F5F5F5' }}>
+              <AnimatedSquares containerRef={imageContainerRef} />
+              <div className="relative z-10 rounded-lg overflow-hidden" style={{ width: '85%', margin: '0 auto' }}>
+                <img 
+                  src="/assets/img/myabcm_myabcm_image_473-scaled-2.jpeg" 
+                  alt="We tried it on ourselves first — and it works"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </Section>

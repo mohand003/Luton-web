@@ -1,16 +1,23 @@
 import Image from 'next/image'
+import AnimatedSquares from '../base/AnimatedSquares'
+import { useRef } from 'react'
 
 export default function Step({ step }) {
+  const imageContainerRef = useRef(null)
+  
   return (
     <div className="flex-1 max-w-[320px] xl:max-w-[400px] mx-auto text-center flex flex-col h-full">
-      <div className="w-full mb-6 sm:mb-4 flex-shrink-0" style={{ height: '240px' }}>
-        <Image
-          src={`/assets/img/${step.img}`}
-          alt=""
-          className="w-full h-full object-cover rounded-lg"
-          width={300}
-          height={240}
-        />
+      <div ref={imageContainerRef} className="relative w-full mb-6 sm:mb-4 flex-shrink-0 overflow-visible rounded-lg p-4" style={{ height: '240px' }}>
+        <AnimatedSquares containerRef={imageContainerRef} />
+        <div className="relative z-10 rounded-lg overflow-hidden h-full" style={{ width: '85%', margin: '0 auto' }}>
+          <Image
+            src={`/assets/img/${step.img}`}
+            alt=""
+            className="w-full h-full object-cover"
+            width={300}
+            height={240}
+          />
+        </div>
       </div>
       <h3 className="text-neutral-800 flex-shrink-0" style={{ 
         fontFamily: 'Poppins, sans-serif',
