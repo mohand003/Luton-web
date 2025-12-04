@@ -1,7 +1,53 @@
 import Section from '../base/Section'
-import { IoCheckmarkCircleOutline, IoGlobeOutline, IoRocketOutline, IoConstructOutline, IoFlashOutline } from 'react-icons/io5'
+import { 
+  IoCheckmarkCircleOutline, 
+  IoShieldOutline,
+  IoConstructOutline,
+  IoRocketOutline,
+  IoFlashOutline,
+  IoGlobeOutline
+} from 'react-icons/io5'
 
 export default function WhyChooseUsSection() {
+  const reasons = [
+    {
+      icon: IoCheckmarkCircleOutline,
+      iconBg: '#9333EA', // Purple
+      title: '1. Proven in Real Operations',
+      description: 'Our systems run inside Luton Engineering every day. You can see them working in real warehouses and projects, not just in slides or demos.'
+    },
+    {
+      icon: IoShieldOutline,
+      iconBg: '#EC4899', // Pink
+      title: '2. High-Standard Delivery',
+      description: 'Structured planning, clear governance and dependable execution shaped by complex programmes. You always know what\'s happening, why it matters, and when to expect progress.'
+    },
+    {
+      icon: IoConstructOutline,
+      iconBg: '#F97316', // Orange
+      title: '3. Built Around Your Processes',
+      description: 'We take time to understand how your teams work, improve the flow, and document the process clearly so everyone knows what "good" should look like before any system goes live.'
+    },
+    {
+      icon: IoRocketOutline,
+      iconBg: '#14B8A6', // Teal
+      title: '4. Proven, Not Theoretical',
+      description: 'You get a working pilot in as little as four to eight weeks. Early feedback reduces risk, builds confidence, and helps shape the solution before wider rollout.'
+    },
+    {
+      icon: IoFlashOutline,
+      iconBg: '#3B82F6', // Blue
+      title: '5. Change That Actually Works',
+      description: 'Technology is only half the challenge. We help teams adapt to new ways of working, handle cultural barriers, and build habits that make change stick across the organisation.'
+    },
+    {
+      icon: IoGlobeOutline,
+      iconBg: '#EF4444', // Red
+      title: '6. Local Partnership, Long-Term Support',
+      description: 'A partner who understands local realities, is easy to reach, and stays with you beyond go-live to ensure systems evolve as the business grows.'
+    }
+  ]
+
   return (
     <section id="why-choose-us" className="w-full py-16 section-bg-light">
       <Section>
@@ -12,105 +58,47 @@ export default function WhyChooseUsSection() {
             fontWeight: 600,
             lineHeight: '40px'
           }}>
-            Why Ghanaian businesses <span style={{ color: '#FC5012' }}>choose us</span>
+            Why Ghanaian businesses <span className="hero-orange-text" style={{ color: '#FC5012', fontWeight: 600 }}>choose us</span>
           </h2>
         </div>
         <div className="col-span-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
-          <div data-aos="fade-up" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="flex justify-center mb-4">
-              <IoCheckmarkCircleOutline className="text-4xl text-primary" />
-            </div>
-            <h3 className="text-primary mb-3" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>1. We use our own system</h3>
-            <p style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              Most ERP vendors sell software. We prove ours works inside Luton Engineering every day.
-            </p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="150" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="flex justify-center mb-4">
-              <IoGlobeOutline className="text-4xl text-primary" />
-            </div>
-            <h3 className="text-primary mb-3" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>2. UK professionals, local Ghana understanding</h3>
-            <p style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              We deliver with the same discipline used for Barclays, NHS, and UK government. But we design for Ghana realities: internet issues, slow approvals, local workflows.
-            </p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="flex justify-center mb-4">
-              <IoRocketOutline className="text-4xl text-primary" />
-            </div>
-            <h3 className="text-primary mb-3" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>3. Start with a low-cost pilot</h3>
-            <p style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              No big upfront cost. Begin with one site or one department.
-            </p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="450" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="flex justify-center mb-4">
-              <IoConstructOutline className="text-4xl text-primary" />
-            </div>
-            <h3 className="text-primary mb-3" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>4. We fix your process before we touch the software</h3>
-            <p style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              Competitors jump straight to features. We first understand how you work, then build the right system.
-            </p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="600" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300 sm:col-span-2 lg:col-span-1">
-            <div className="flex justify-center mb-4">
-              <IoFlashOutline className="text-4xl text-primary" />
-            </div>
-            <h3 className="text-primary mb-3" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>5. Practical automation and AI</h3>
-            <p style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              No hype. Real tools that remove repetitive work and save hours.
-            </p>
-          </div>
+          {reasons.map((reason, index) => {
+            const IconComponent = reason.icon
+            return (
+              <div 
+                key={index}
+                data-aos="fade-up" 
+                data-aos-delay={index * 150}
+                className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300 flex flex-col"
+              >
+                <div 
+                  className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: reason.iconBg }}
+                >
+                  <IconComponent className="text-white" size={28} />
+                </div>
+                <h3 className="text-gray-800 mb-3 flex-shrink-0" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '20px',
+                  fontWeight: 600,
+                  lineHeight: '28px',
+                  minHeight: '56px',
+                  display: 'flex',
+                  alignItems: 'flex-start'
+                }}>
+                  {reason.title}
+                </h3>
+                <p className="text-gray-600 flex-grow" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '14px',
+                  fontWeight: 400,
+                  lineHeight: '22.75px'
+                }}>
+                  {reason.description}
+                </p>
+              </div>
+            )
+          })}
         </div>
       </Section>
     </section>

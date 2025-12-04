@@ -1,8 +1,53 @@
 import Section from '../base/Section'
-import ListItem from '../landing/ListItem'
-import { IoCubeOutline, IoGridOutline, IoSparklesOutline, IoConstructOutline } from 'react-icons/io5'
+import { 
+  IoSearchOutline, 
+  IoCubeOutline,
+  IoGridOutline,
+  IoSparklesOutline,
+  IoBarChartOutline,
+  IoCloudOutline
+} from 'react-icons/io5'
 
 export default function ServicesSection() {
+  const services = [
+    {
+      icon: IoSearchOutline,
+      iconBg: '#9333EA', // Purple
+      title: '1. Process Optimisation & Strategic Consultancy',
+      description: 'Clear, efficient processes make every system work better. This service helps teams remove bottlenecks, reduce waste, and create a strong foundation for scaling operations with confidence and consistency.'
+    },
+    {
+      icon: IoCubeOutline,
+      iconBg: '#EC4899', // Pink
+      title: '2. Inventory Management System (IMS)',
+      description: 'A practical tool for tracking stock, deliveries and project usage in real time. Businesses gain visibility, reduce losses, speed up approvals, and keep daily operations under control across multiple sites.'
+    },
+    {
+      icon: IoGridOutline,
+      iconBg: '#F97316', // Orange
+      title: '3. Modular ERP (Phased Rollout)',
+      description: 'A flexible ERP that grows at the pace of the business. Start with one department, prove value quickly, then expand. Designed to improve accuracy, cost control and day-to-day coordination.'
+    },
+    {
+      icon: IoSparklesOutline,
+      iconBg: '#14B8A6', // Teal
+      title: '4. Automation & AI',
+      description: 'Automates repetitive tasks, cleans messy data, and speeds up decision-making. Helps teams work faster with fewer errors, freeing people to focus on higher-value activities without increasing headcount.'
+    },
+    {
+      icon: IoBarChartOutline,
+      iconBg: '#3B82F6', // Blue
+      title: '5. Data & Reporting',
+      description: 'Simple dashboards and clear reports that help leaders understand performance, manage cashflow, and plan ahead. Reliable data becomes part of everyday decisions, not something recreated at month-end.'
+    },
+    {
+      icon: IoCloudOutline,
+      iconBg: '#EF4444', // Red
+      title: '6. Cloud & Infrastructure Services',
+      description: 'Secure, reliable hosting and access controls that ensure systems run smoothly. Removes the need for heavy hardware investment and provides a stable foundation for digital tools and future growth.'
+    }
+  ]
+
   return (
     <section id="services" className="w-full py-16 bg-white">
       <Section>
@@ -13,134 +58,52 @@ export default function ServicesSection() {
             fontWeight: 600,
             lineHeight: '40px'
           }}>
-            Our Services for <span style={{ color: '#FC5012' }}>Ghana</span>
+            Practical Solutions for Everyday <span style={{ color: '#FC5012' }}>Business Challenges</span>
           </h2>
-          <p data-aos="fade-up" data-aos-delay="150" className="text-lg sm:text-xl text-gray-600 mt-4" style={{ fontWeight: 400, lineHeight: 1.6 }}>
-            Start small. Prove value. Scale when ready.
+          <p data-aos="fade-up" data-aos-delay="150" className="text-gray-600 mt-4" style={{ 
+            fontFamily: 'Poppins, sans-serif',
+            fontSize: '16px',
+            fontWeight: 400,
+            lineHeight: '26px'
+          }}>
+            Designed to improve day-to-day operations and make work easier, faster and more reliable.
           </p>
         </div>
-        <div className="col-span-12 grid sm:grid-cols-2 gap-6 px-4">
-          {/* Card 1 - Inventory Management System */}
-          <div data-aos="fade-up" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
-              background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
-            }}>
-              <IoCubeOutline className="text-white" size={32} />
-            </div>
-            <h3 className="text-gray-800 mb-3 text-center" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>1. Inventory Management System (IMS)</h3>
-            <p className="text-gray-600 text-center italic mb-4" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              Built from real warehouse operations at Luton Engineering.
-            </p>
-            <ul className="space-y-1 text-left list-none" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '16px',
-              fontWeight: 400,
-              lineHeight: '24px'
-            }}>
-              <ListItem title="Requisitions" />
-              <ListItem title="Approvals" />
-              <ListItem title="Goods in / out" />
-              <ListItem title="Stock levels" />
-              <ListItem title="Warehouse audits" />
-              <ListItem title="Simple dashboards" />
-            </ul>
-          </div>
-
-          {/* Card 2 - Modular ERP */}
-          <div data-aos="fade-up" data-aos-delay="150" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
-              background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
-            }}>
-              <IoGridOutline className="text-white" size={32} />
-            </div>
-            <h3 className="text-gray-800 mb-3 text-center" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>2. Modular ERP (Phased Rollout)</h3>
-            <p className="text-gray-600 text-center italic mb-4" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              Designed for Ghana companies who want to digitise slowly, one department at a time.
-            </p>
-            <ul className="space-y-1 text-left list-none" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '16px',
-              fontWeight: 400,
-              lineHeight: '24px'
-            }}>
-              <ListItem title="Finance" />
-              <ListItem title="Purchasing" />
-              <ListItem title="Production" />
-              <ListItem title="Projects" />
-              <ListItem title="HR basics" />
-              <ListItem title="Job costing" />
-            </ul>
-          </div>
-
-          {/* Card 3 - Automation & AI */}
-          <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
-              background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
-            }}>
-              <IoSparklesOutline className="text-white" size={32} />
-            </div>
-            <h3 className="text-gray-800 mb-3 text-center" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>3. Automation & AI</h3>
-            <ul className="space-y-1 text-left list-none" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '16px',
-              fontWeight: 400,
-              lineHeight: '24px'
-            }}>
-              <ListItem title="Remove manual work" />
-              <ListItem title="Connect your systems" />
-              <ListItem title="Clean and dedupe your data" />
-              <ListItem title="Auto-generate simple reports" />
-              <ListItem title="Train your teams to use AI the right way" />
-            </ul>
-          </div>
-
-          {/* Card 4 - Advisory, Training & Support */}
-          <div data-aos="fade-up" data-aos-delay="450" className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300">
-            <div className="w-16 h-16 rounded-xl mb-6 flex items-center justify-center mx-auto" style={{
-              background: 'linear-gradient(135deg, #FC5012 0%, #D43E0F 100%)'
-            }}>
-              <IoConstructOutline className="text-white" size={32} />
-            </div>
-            <h3 className="text-gray-800 mb-3 text-center" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '18px',
-              fontWeight: 500,
-              lineHeight: '28px'
-            }}>4. Advisory, Training & Support</h3>
-            <p className="text-gray-600 text-center leading-relaxed" style={{ 
-              fontFamily: 'Poppins, sans-serif',
-              fontSize: '14px',
-              fontWeight: 400,
-              lineHeight: '22.75px'
-            }}>
-              We map your processes, set up the right workflows, and support your team after go-live.
-            </p>
-          </div>
+        <div className="col-span-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+          {services.map((service, index) => {
+            const IconComponent = service.icon
+            return (
+              <div 
+                key={index}
+                data-aos="fade-up" 
+                data-aos-delay={index * 150}
+                className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300"
+              >
+                <div 
+                  className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center"
+                  style={{ backgroundColor: service.iconBg }}
+                >
+                  <IconComponent className="text-white" size={28} />
+                </div>
+                <h3 className="text-gray-800 mb-3" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '20px',
+                  fontWeight: 600,
+                  lineHeight: '28px'
+                }}>
+                  {service.title}
+                </h3>
+                <p className="text-gray-600" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '14px',
+                  fontWeight: 400,
+                  lineHeight: '22.75px'
+                }}>
+                  {service.description}
+                </p>
+              </div>
+            )
+          })}
         </div>
       </Section>
     </section>
