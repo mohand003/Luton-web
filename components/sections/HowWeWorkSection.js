@@ -39,7 +39,7 @@ export default function HowWeWorkSection() {
         <div className="col-span-12">
           <div
             data-aos="fade-up"
-            className="relative w-full flex flex-col lg:flex-row items-stretch justify-between space-y-12 lg:space-y-0 px-4 xl:px-10"
+            className="relative w-full flex flex-col lg:flex-row items-stretch justify-between gap-8 lg:gap-6 px-4 xl:px-10"
           >
             {steps.map((step, index) => (
               <Step key={index} step={step} />
