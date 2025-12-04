@@ -116,7 +116,6 @@ export default function ContactSection() {
               {/* Left Side - Contact Info */}
               <div data-aos="fade-right" className="space-y-8">
                 <div>
-                  <span className="text-base sm:text-lg font-semibold uppercase tracking-wider" style={{ fontWeight: 600, color: '#FC5012' }}>Support</span>
                   <h2 className="text-neutral-800 mt-1" style={{ 
                     fontFamily: 'Poppins, sans-serif',
                     fontSize: '36px',

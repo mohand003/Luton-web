@@ -5,34 +5,41 @@ export default function Accordion({ accordion }) {
   const [selected, setSelected] = useState(false)
 
   return (
-    <li className="list-none relative bg-white border border-gray-200 rounded-lg transition-all duration-300 focus-within:ring-2 focus-within:ring-primary focus-within:ring-offset-2 hover:bg-gray-50">
+    <li className="list-none relative transition-all duration-300">
       <button 
         type="button" 
-        className="w-full px-6 py-5 text-left focus:outline-none rounded-lg transition-all duration-300"
+        className="w-full py-4 text-left focus:outline-none transition-all duration-300"
         onClick={() => setSelected(!selected)}
       >
         <div className="flex items-center justify-between">
-          <span className="text-lg sm:text-xl font-semibold text-neutral-800 pr-4" style={{ fontWeight: 600, letterSpacing: '-0.01em' }}>{accordion.title}</span>
+          <span className="text-neutral-800 pr-4" style={{ 
+            fontFamily: 'Poppins, sans-serif',
+            fontSize: '16px',
+            fontWeight: 500,
+            lineHeight: '24px'
+          }}>{accordion.title}</span>
           <div className="flex-shrink-0">
             {selected ? (
-              <IoChevronUp size={24} className="text-primary transition-transform duration-300" />
+              <IoChevronUp size={20} className="transition-transform duration-300" style={{ color: '#FC5012' }} />
             ) : (
-              <IoChevronDown size={24} className="text-gray-400 transition-transform duration-300" />
+              <IoChevronDown size={20} className="text-gray-400 transition-transform duration-300" />
             )}
           </div>
         </div>
       </button>
 
       {selected && (
-        <>
-          <div className="px-6">
-            <div className="border-t-2 border-primary my-2"></div>
-          </div>
-          <div className="px-6 pb-5">
-            <p className="text-base sm:text-lg text-gray-600 tracking-wide leading-relaxed" style={{ fontWeight: 400, lineHeight: 1.6 }}>{accordion.description}</p>
-          </div>
-        </>
+        <div className="mt-1 mb-2 bg-white rounded-lg">
+          <p className="text-gray-600" style={{ 
+            fontFamily: 'Poppins, sans-serif',
+            fontSize: '14px',
+            fontWeight: 400,
+            lineHeight: '22.75px'
+          }}>{accordion.description}</p>
+        </div>
       )}
+      
+      {!selected && <div className="border-b border-gray-200 mt-2"></div>}
     </li>
   )
 }
