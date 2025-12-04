@@ -49,7 +49,7 @@ export default function ServicesSection() {
   ]
 
   return (
-    <section id="services" className="w-full py-16 bg-white">
+    <section id="services" className="w-full pt-16 pb-12 bg-white">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-16">
           <h2 data-aos="fade-up" className="text-neutral-800" style={{
@@ -69,7 +69,7 @@ export default function ServicesSection() {
             Designed to improve day-to-day operations and make work easier, faster and more reliable.
           </p>
         </div>
-        <div className="col-span-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+        <div className="col-span-12 grid pb-4 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
           {services.map((service, index) => {
             const IconComponent = service.icon
             return (
@@ -77,7 +77,7 @@ export default function ServicesSection() {
                 key={index}
                 data-aos="fade-up" 
                 data-aos-delay={index * 150}
-                className="bg-white p-8 rounded-xl border-2 border-gray-300 transition-shadow duration-300"
+                className="bg-white p-8 rounded-xl shadow-lg transition-shadow duration-300"
               >
                 <div 
                   className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center"
