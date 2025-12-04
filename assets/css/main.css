@@ -4,24 +4,24 @@
 
 @layer base {
   * {
-    font-family: 'Inter', 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
   
   body {
-    font-family: 'Inter', 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Inter', 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-weight: 700;
     letter-spacing: -0.02em;
   }
   
   p, span, a, li, button, input, textarea, select, label {
-    font-family: 'Inter', 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 }
 
@@ -87,7 +87,7 @@ input[type=number] {
 .section-bg-hero li {
   color: #374151 !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-hero span[style*="#FC5012"],
 .section-bg-hero span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;
@@ -128,7 +128,7 @@ input[type=number] {
 .section-bg-light li {
   color: #374151 !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-light span[style*="#FC5012"],
 .section-bg-light span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;
@@ -180,7 +180,7 @@ span.badge-orange {
 .section-bg-dark div {
   color: #e5e7eb !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-dark span[style*="#FC5012"],
 .section-bg-dark span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;
@@ -210,7 +210,7 @@ span.badge-orange {
 .section-bg-dark .bg-white div {
   color: #374151 !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-dark .bg-white span[style*="#FC5012"],
 .section-bg-dark .bg-white span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;
@@ -258,7 +258,7 @@ span.badge-orange {
 .section-bg-light-dark div {
   color: #f3f4f6 !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-light-dark span[style*="#FC5012"],
 .section-bg-light-dark span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;
@@ -288,7 +288,7 @@ span.badge-orange {
 .section-bg-light-dark .bg-white div {
   color: #374151 !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-light-dark .bg-white span[style*="#FC5012"],
 .section-bg-light-dark .bg-white span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;
@@ -336,7 +336,7 @@ span.badge-orange {
 .section-bg-dark-light div {
   color: #e5e7eb !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-dark-light span[style*="#FC5012"],
 .section-bg-dark-light span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;
@@ -366,7 +366,7 @@ span.badge-orange {
 .section-bg-dark-light .bg-white div {
   color: #374151 !important;
 }
-/* استثناء للعناصر البرتقالية */
+/* استثناء للهايلايتس البرتقالية */
 .section-bg-dark-light .bg-white span[style*="#FC5012"],
 .section-bg-dark-light .bg-white span[style*="color: '#FC5012'"] {
   color: #FC5012 !important;

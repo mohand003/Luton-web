@@ -7,36 +7,71 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
         <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8 mt-8 lg:mt-0 flex items-center">
           <div data-aos="fade-right" className="space-y-8 w-full">
             {/* Main Heading */}
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.1] text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '40px', letterSpacing: '-0.02em' }}>
+            <h2 className="text-neutral-800" style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '36px',
+              fontWeight: 600,
+              lineHeight: '40px'
+            }}>
               We tried it on ourselves first — <span style={{ color: '#FC5012' }}>and it works</span>
             </h2>
             
             {/* Sub-section 1 */}
             <div className="space-y-3">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', fontWeight: 500, lineHeight: '28px', letterSpacing: '-0.01em' }}>
+              <h3 className="text-neutral-800" style={{ 
+                fontFamily: 'Poppins, sans-serif',
+                fontSize: '18px',
+                fontWeight: 500,
+                lineHeight: '28px'
+              }}>
                 Built for our own operations
               </h3>
-              <p className="text-base sm:text-lg md:text-xl text-neutral-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', fontWeight: 400, lineHeight: '22.75px' }}>
+              <p className="text-neutral-600" style={{ 
+                fontFamily: 'Poppins, sans-serif',
+                fontSize: '14px',
+                fontWeight: 400,
+                lineHeight: '22.75px'
+              }}>
                 We first built these systems to solve real problems inside Luton Engineering. We use them every day to manage inventory, track projects, and streamline approvals. This isn't theory — it's proven in daily use.
               </p>
             </div>
             
             {/* Sub-section 2 */}
             <div className="space-y-3">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', fontWeight: 500, lineHeight: '28px', letterSpacing: '-0.01em' }}>
+              <h3 className="text-neutral-800" style={{ 
+                fontFamily: 'Poppins, sans-serif',
+                fontSize: '18px',
+                fontWeight: 500,
+                lineHeight: '28px'
+              }}>
                 Real results, real data
               </h3>
-              <p className="text-base sm:text-lg md:text-xl text-neutral-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', fontWeight: 400, lineHeight: '22.75px' }}>
+              <p className="text-neutral-600" style={{ 
+                fontFamily: 'Poppins, sans-serif',
+                fontSize: '14px',
+                fontWeight: 400,
+                lineHeight: '22.75px'
+              }}>
                 Our Inventory Management System handles thousands of items across multiple sites. Our ERP modules manage finance, purchasing, and production workflows. We know what works because we live with it every day.
               </p>
             </div>
             
             {/* Sub-section 3 */}
             <div className="space-y-3">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', fontWeight: 500, lineHeight: '28px', letterSpacing: '-0.01em' }}>
+              <h3 className="text-neutral-800" style={{ 
+                fontFamily: 'Poppins, sans-serif',
+                fontSize: '18px',
+                fontWeight: 500,
+                lineHeight: '28px'
+              }}>
                 Tested under real conditions
               </h3>
-              <p className="text-base sm:text-lg md:text-xl text-neutral-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', fontWeight: 400, lineHeight: '22.75px' }}>
+              <p className="text-neutral-600" style={{ 
+                fontFamily: 'Poppins, sans-serif',
+                fontSize: '14px',
+                fontWeight: 400,
+                lineHeight: '22.75px'
+              }}>
                 These systems handle real deadlines, real budgets, and real operational pressure. If something doesn't work, we fix it immediately — because we're the ones using it. That's why we're confident they'll work for you.
               </p>
             </div>

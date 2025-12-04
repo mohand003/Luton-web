@@ -27,7 +27,12 @@ export default function HowWeWorkSection() {
     <section id="how-we-work" className="w-full py-16 bg-white">
       <Section>
         <div className="col-span-12 text-center space-y-4 px-4 mb-12">
-          <h2 data-aos="fade-up" className="text-4xl sm:text-5xl md:text-6xl font-bold" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '40px', letterSpacing: '-0.02em' }}>
+          <h2 data-aos="fade-up" style={{ 
+            fontFamily: 'Poppins, sans-serif',
+            fontSize: '36px',
+            fontWeight: 600,
+            lineHeight: '40px'
+          }}>
             Our simple <span style={{ color: '#FC5012' }}>3-step process</span>
           </h2>
         </div>

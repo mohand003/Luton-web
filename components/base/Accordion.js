@@ -12,7 +12,7 @@ export default function Accordion({ accordion }) {
         onClick={() => setSelected(!selected)}
       >
         <div className="flex items-center justify-between">
-          <span className="text-lg sm:text-xl font-semibold text-neutral-800 pr-4" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, letterSpacing: '-0.01em' }}>{accordion.title}</span>
+          <span className="text-lg sm:text-xl font-semibold text-neutral-800 pr-4" style={{ fontWeight: 600, letterSpacing: '-0.01em' }}>{accordion.title}</span>
           <div className="flex-shrink-0">
             {selected ? (
               <IoChevronUp size={24} className="text-primary transition-transform duration-300" />
@@ -29,7 +29,7 @@ export default function Accordion({ accordion }) {
             <div className="border-t-2 border-primary my-2"></div>
           </div>
           <div className="px-6 pb-5">
-            <p className="text-base sm:text-lg text-gray-600 tracking-wide leading-relaxed" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>{accordion.description}</p>
+            <p className="text-base sm:text-lg text-gray-600 tracking-wide leading-relaxed" style={{ fontWeight: 400, lineHeight: 1.6 }}>{accordion.description}</p>
           </div>
         </>
       )}

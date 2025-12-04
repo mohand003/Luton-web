@@ -37,12 +37,17 @@ export default function TrustSection() {
               >
               <div className="text-center space-y-6">
                 {/* Title */}
-                <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '40px', letterSpacing: '-0.01em' }}>
+                <h2 data-aos="fade-up" className="text-neutral-800" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '36px',
+                  fontWeight: 600,
+                  lineHeight: '40px'
+                }}>
                   Trusted by organisations in the <span style={{ color: '#FC5012' }}>UK & Ghana</span>:
                 </h2>
                 
                 {/* Description */}
-                <p data-aos="fade-up" data-aos-delay="150" className="text-base sm:text-lg md:text-xl text-neutral-500 font-normal max-w-2xl mx-auto" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>
+                <p data-aos="fade-up" data-aos-delay="150" className="text-base sm:text-lg md:text-xl text-neutral-500 font-normal max-w-2xl mx-auto" style={{ fontWeight: 400, lineHeight: 1.6 }}>
                   We combine UK-grade delivery with deep understanding of Ghana operations.
                 </p>
                 
@@ -50,25 +55,25 @@ export default function TrustSection() {
                 <div data-aos="fade-up" data-aos-delay="300" className="flex flex-wrap items-center justify-center gap-8 lg:gap-12 mt-6">
                   {/* Barclays */}
                   <div className="flex items-center justify-center">
-                    <div className="text-xl font-bold text-neutral-800" style={{ color: '#00AEEF', letterSpacing: '2px', fontFamily: 'sans-serif' }}>BARCLAYS</div>
+                    <div className="text-xl font-bold text-neutral-800" style={{ color: '#00AEEF', letterSpacing: '2px', fontFamily: 'Poppins, sans-serif' }}>BARCLAYS</div>
                   </div>
                   
                   {/* Sony */}
                   <div className="flex items-center justify-center">
-                    <div className="text-2xl font-bold text-neutral-800" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>SONY</div>
+                    <div className="text-2xl font-bold text-neutral-800" style={{ color: '#000000', fontFamily: 'Poppins, sans-serif' }}>SONY</div>
                   </div>
                   
                   {/* NHS */}
                   <div className="flex items-center justify-center gap-2">
                     <div className="w-3 h-12 bg-blue-600"></div>
-                    <div className="text-xl font-bold" style={{ color: '#005EB8', fontFamily: 'sans-serif' }}>NHS</div>
+                    <div className="text-xl font-bold" style={{ color: '#005EB8', fontFamily: 'Poppins, sans-serif' }}>NHS</div>
                   </div>
                   
                   {/* Department for Education */}
                   <div className="flex items-center justify-center">
                     <div className="text-center">
-                      <div className="text-xs font-semibold text-neutral-800 leading-tight" style={{ fontFamily: 'sans-serif' }}>Department for</div>
-                      <div className="text-sm font-bold text-neutral-800" style={{ fontFamily: 'sans-serif' }}>Education</div>
+                      <div className="text-xs font-semibold text-neutral-800 leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>Department for</div>
+                      <div className="text-sm font-bold text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif' }}>Education</div>
                     </div>
                   </div>
                   

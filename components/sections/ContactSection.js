@@ -116,10 +116,15 @@ export default function ContactSection() {
               {/* Left Side - Contact Info */}
               <div data-aos="fade-right" className="space-y-8">
                 <div>
-                  <span className="badge-orange text-white inline-block px-4 py-2 text-base sm:text-lg font-semibold uppercase tracking-wider rounded-md" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, backgroundColor: '#FC5012', color: '#FFFFFF' }}>Support</span>
-                  <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-neutral-800 mt-2" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '40px', letterSpacing: '-0.02em' }}>Connect With <span style={{ color: '#FC5012' }}>Us</span></h2>
+                  <span className="badge-orange text-white inline-block px-4 py-2 text-base sm:text-lg font-semibold uppercase tracking-wider rounded-md" style={{ fontWeight: 600, backgroundColor: '#FC5012', color: '#FFFFFF' }}>Support</span>
+                  <h2 className="text-neutral-800 mt-2" style={{ 
+                    fontFamily: 'Poppins, sans-serif',
+                    fontSize: '36px',
+                    fontWeight: 600,
+                    lineHeight: '40px'
+                  }}>Connect With <span style={{ color: '#FC5012' }}>Us</span></h2>
                 </div>
-                <p className="text-lg sm:text-xl text-gray-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>
+                <p className="text-lg sm:text-xl text-gray-600" style={{ fontWeight: 400, lineHeight: 1.6 }}>
                   Ready to improve your operations? Let's start with one short conversation. If there's a fit, we'll show you a simple, low-cost plan.
                 </p>
                 
@@ -129,8 +134,8 @@ export default function ContactSection() {
                       <IoLocationOutline size={24} className="text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-lg sm:text-xl font-semibold text-neutral-800 mb-1" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '28px' }}>Find us</h4>
-                      <p className="text-base sm:text-lg text-gray-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>6 Swan Street, Manchester, M4 5JN, UK</p>
+                      <h4 className="text-lg sm:text-xl font-semibold text-neutral-800 mb-1" style={{ fontWeight: 600 }}>Find us</h4>
+                      <p className="text-base sm:text-lg text-gray-600" style={{ fontWeight: 400, lineHeight: 1.6 }}>6 Swan Street, Manchester, M4 5JN, UK</p>
                     </div>
                   </div>
                   
@@ -139,8 +144,8 @@ export default function ContactSection() {
                       <IoCallOutline size={24} className="text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-lg sm:text-xl font-semibold text-neutral-800 mb-1" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '28px' }}>Call us</h4>
-                      <p className="text-base sm:text-lg text-gray-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>
+                      <h4 className="text-lg sm:text-xl font-semibold text-neutral-800 mb-1" style={{ fontWeight: 600 }}>Call us</h4>
+                      <p className="text-base sm:text-lg text-gray-600" style={{ fontWeight: 400, lineHeight: 1.6 }}>
                         <a href="tel:+441618346577" className="text-blue-600 hover:text-blue-800">
                           0044 161 834 6577
                         </a>
@@ -153,8 +158,8 @@ export default function ContactSection() {
                       <IoMailOutline size={24} className="text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-lg sm:text-xl font-semibold text-neutral-800 mb-1" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '28px' }}>Mail us</h4>
-                      <p className="text-base sm:text-lg text-gray-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>
+                      <h4 className="text-lg sm:text-xl font-semibold text-neutral-800 mb-1" style={{ fontWeight: 600 }}>Mail us</h4>
+                      <p className="text-base sm:text-lg text-gray-600" style={{ fontWeight: 400, lineHeight: 1.6 }}>
                         <a href="mailto:enquiries@luton-eng.com" className="text-blue-600 hover:text-blue-800">
                           enquiries@luton-eng.com
                         </a>

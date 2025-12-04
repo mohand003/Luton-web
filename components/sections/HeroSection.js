@@ -10,14 +10,29 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
           <h1
             data-aos="fade-right"
             data-aos-once="true"
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] sm:pr-8 xl:pr-10"
-            style={{ fontFamily: 'Poppins, sans-serif', fontSize: '48px', fontWeight: 700, lineHeight: '48px', letterSpacing: '-0.02em' }}
+            className="sm:pr-8 xl:pr-10"
+            style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '48px',
+              fontWeight: 700,
+              lineHeight: '48px'
+            }}
           >
             We are our own <span style={{ color: '#FC5012' }}>case study</span>.
             <br />
             UK-level systems, proven inside Luton Engineering, now built for Ghana.
           </h1>
-          <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" className="text-base sm:text-lg md:text-xl leading-relaxed" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>
+          <p 
+            data-aos="fade-down" 
+            data-aos-once="true" 
+            data-aos-delay="300" 
+            style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '16px',
+              fontWeight: 400,
+              lineHeight: '26px'
+            }}
+          >
             We first built these systems for Luton Engineering in the UK.
             <br />
             We use them every day.
@@ -43,7 +58,7 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
               See How Our System Works
             </Button>
           </div>
-          <p data-aos="fade-up" data-aos-once="true" data-aos-delay="900" className="text-sm sm:text-base text-accent mt-4" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', fontWeight: 400, lineHeight: '22.75px' }}>
+          <p data-aos="fade-up" data-aos-once="true" data-aos-delay="900" className="text-sm sm:text-base text-accent mt-4" style={{ fontWeight: 400 }}>
             No pressure. We listen first, then show you the right solution.
           </p>
         </div>

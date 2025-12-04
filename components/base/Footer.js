@@ -22,10 +22,10 @@ export default function Footer() {
 
           {/* COMPANY Column */}
           <div>
-            <h5 className="text-sm font-semibold text-neutral-800 mb-3" style={{ fontWeight: 600, fontFamily: 'Inter, DM Sans, sans-serif' }}>COMPANY</h5>
+            <h5 className="text-sm font-semibold text-neutral-800 mb-3" style={{ fontWeight: 600, fontFamily: 'Poppins, sans-serif' }}>COMPANY</h5>
             <ul className="space-y-2">
               <li>
-                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors" style={{ fontFamily: 'Inter, DM Sans, sans-serif' }}>
+                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors" style={{ fontFamily: 'Poppins, sans-serif' }}>
                   About
                 </Link>
               </li>
@@ -52,7 +52,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors" style={{ fontFamily: 'Inter, DM Sans, sans-serif' }}>
+                <Link href="#case-study" className="text-sm text-gray-600 hover:text-primary transition-colors" style={{ fontFamily: 'Poppins, sans-serif' }}>
                   Case Study
                 </Link>
               </li>

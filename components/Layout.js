@@ -45,11 +45,6 @@ export default function Layout({ children }) {
           pointer-events: none;
           z-index: 0;
         }
-        .section-bg-hero > * {
-          position: relative;
-          z-index: 1;
-        }
-        
         /* Pattern 2 - Light Pattern */
         .section-bg-light {
           position: relative;
@@ -79,8 +74,6 @@ export default function Layout({ children }) {
           position: relative;
           z-index: 1;
         }
-
-        /* Hero Extended Background */
         .hero-bg-extended {
           padding-bottom: 200px !important;
           margin-bottom: -96px !important;

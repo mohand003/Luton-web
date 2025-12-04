@@ -96,42 +96,82 @@ export default function ProblemsSection({ onBookCall }) {
         {/* Right Side - Text Content */}
         <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-8 lg:mt-0 flex items-center">
           <div data-aos="fade-left" className="space-y-5 sm:space-y-6 w-full">
-            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold leading-[1.1] text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '40px', letterSpacing: '-0.02em' }}>
+            <h2 className="text-neutral-800" style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '36px',
+              fontWeight: 600,
+              lineHeight: '40px'
+            }}>
               The everyday <span style={{ color: '#FC5012' }}>problems</span> Ghanaian businesses face
             </h2>
             
-            <p className="text-base sm:text-lg text-neutral-600" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '26px' }}>
+            <p className="text-neutral-600" style={{ 
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '16px',
+              fontWeight: 400,
+              lineHeight: '26px'
+            }}>
               Subject to business and operational terms which will be available at consultation.
             </p>
             
             <div className="space-y-3 sm:space-y-4 mt-6 sm:mt-8">
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
-                <span className="text-lg sm:text-xl text-neutral-800" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 400, lineHeight: '24px' }}>Too much manual paperwork</span>
+                <span className="text-neutral-800" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                  lineHeight: '24px'
+                }}>Too much manual paperwork</span>
               </div>
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
-                <span className="text-lg sm:text-xl text-neutral-800" style={{ fontWeight: 500 }}>Stock going missing or hard to track</span>
+                <span className="text-neutral-800" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                  lineHeight: '24px'
+                }}>Stock going missing or hard to track</span>
               </div>
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
-                <span className="text-lg sm:text-xl text-neutral-800" style={{ fontWeight: 500 }}>Approvals take too long</span>
+                <span className="text-neutral-800" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                  lineHeight: '24px'
+                }}>Approvals take too long</span>
               </div>
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
-                <span className="text-lg sm:text-xl text-neutral-800" style={{ fontWeight: 500 }}>Reports arrive late or with wrong numbers</span>
+                <span className="text-neutral-800" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                  lineHeight: '24px'
+                }}>Reports arrive late or with wrong numbers</span>
               </div>
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
-                <span className="text-lg sm:text-xl text-neutral-800" style={{ fontWeight: 500 }}>Systems don't match how people actually work</span>
+                <span className="text-neutral-800" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                  lineHeight: '24px'
+                }}>Systems don't match how people actually work</span>
               </div>
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
-                <span className="text-lg sm:text-xl text-neutral-800" style={{ fontWeight: 500 }}>Dependence on 'one key person' for everything</span>
+                <span className="text-neutral-800" style={{ 
+                  fontFamily: 'Poppins, sans-serif',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                  lineHeight: '24px'
+                }}>Dependence on 'one key person' for everything</span>
               </div>
             </div>
             
-            <p className="text-lg sm:text-xl font-semibold text-neutral-800 mt-4 sm:mt-6" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            <p className="text-lg sm:text-xl font-semibold text-neutral-800 mt-4 sm:mt-6" style={{ fontWeight: 600 }}>
               We solved all these problems inside Luton Engineering — and we can help you do the same.
             </p>
           </div>
