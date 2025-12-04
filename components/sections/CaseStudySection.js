@@ -6,7 +6,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
     <section id="case-study" className="w-full py-16 section-bg-light">
       <Section>
         <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8 mt-8 lg:mt-0 flex items-center">
-          <div data-aos="fade-right" className="space-y-8 w-full">
+          <div data-aos="fade-right" className="space-y-3 w-full">
             {/* Main Heading */}
             <h2 className="text-neutral-800" style={{ 
               fontFamily: 'Poppins, sans-serif',
@@ -18,7 +18,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             </h2>
             
             {/* Sub-section 1 */}
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h3 className="text-neutral-800" style={{ 
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '18px',
@@ -38,7 +38,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             </div>
             
             {/* Sub-section 2 */}
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h3 className="text-neutral-800" style={{ 
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '18px',
@@ -58,7 +58,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             </div>
             
             {/* Sub-section 3 */}
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h3 className="text-neutral-800" style={{ 
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '18px',
@@ -78,7 +78,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             </div>
 
             {/* Closing Text */}
-            <p className="text-neutral-600 mt-6" style={{ 
+            <p className="text-neutral-600 mt-4" style={{ 
               fontFamily: 'Poppins, sans-serif',
               fontSize: '14px',
               fontWeight: 400,
@@ -88,7 +88,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
             </p>
 
             {/* Button */}
-            <div className="mt-6">
+            <div className="mt-4">
               <Button 
                 onClick={onBookCall}
                 className="max-w-full px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white cursor-pointer"
@@ -101,7 +101,7 @@ export default function CaseStudySection({ onBookCall, onSeeHowItWorks }) {
         
         {/* Right Side - Systems Illustration */}
         <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-12 lg:mt-0 flex items-center">
-          <div data-aos="fade-left" className="relative w-full flex items-center justify-center min-h-[600px] lg:min-h-[700px] xl:min-h-[800px] py-8">
+          <div data-aos="fade-left" className="relative w-full flex items-center justify-center min-h-[600px] ">
             <div className="relative w-full h-full flex items-center justify-center" style={{ maxWidth: '100%' }}>
               {/* Central Badge - "We Tried It First" */}
               <div className="relative z-20 transform rotate-[-5deg]">

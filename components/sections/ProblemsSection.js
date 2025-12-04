@@ -7,7 +7,7 @@ export default function ProblemsSection({ onBookCall }) {
       <Section>
         <div className="col-span-12 lg:col-span-6 px-4 lg:pr-8">
           {/* Left Side - Credit Cards Style Visualization */}
-          <div data-aos="fade-right" className="relative flex items-center justify-center lg:justify-start h-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px] py-8 lg:py-0">
+          <div data-aos="fade-right" className="relative flex items-center justify-center lg:justify-start h-full  ">
             {/* Stacked Cards */}
             <div className="relative z-10 flex items-center justify-center w-full max-w-[360px] sm:max-w-none">
               {/* Card 3 - Bottom Card (Primary Gradient) */}
@@ -95,7 +95,7 @@ export default function ProblemsSection({ onBookCall }) {
 
         {/* Right Side - Text Content */}
         <div className="col-span-12 lg:col-span-6 px-4 lg:pl-8 mt-8 lg:mt-0 flex items-center">
-          <div data-aos="fade-left" className="space-y-5 sm:space-y-6 w-full">
+          <div data-aos="fade-left" className="space-y-4 w-full">
             <h2 className="text-neutral-800" style={{ 
               fontFamily: 'Poppins, sans-serif',
               fontSize: '36px',
@@ -114,7 +114,7 @@ export default function ProblemsSection({ onBookCall }) {
               Luton Engineering faced the same challenges most organisations struggle with. As you grow, these issues start to show up everywhere:
             </p>
             
-            <div className="space-y-1.5 sm:space-y-2 mt-6 sm:mt-8">
+            <div className="space-y-1.5 sm:space-y-2 mt-4">
               <div className="flex items-start space-x-3">
                 <IoCheckmarkCircleOutline className="text-primary flex-shrink-0 mt-0.5 sm:mt-1" size={20} />
                 <span className="text-neutral-800" style={{ 
@@ -162,7 +162,7 @@ export default function ProblemsSection({ onBookCall }) {
               </div>
             </div>
             
-            <p className="text-lg sm:text-xl font-semibold text-neutral-800 mt-4 sm:mt-6" style={{ fontWeight: 600 }}>
+            <p className="text-lg sm:text-xl font-semibold text-neutral-800 mt-4" style={{ fontWeight: 600 }}>
               We spent 4+ years solving these problems inside Luton Engineering. Now we help other businesses do the same.
             </p>
           </div>
