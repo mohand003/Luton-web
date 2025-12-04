@@ -6,7 +6,7 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
   return (
     <section id="hero" className="w-full py-16 section-bg-light hero-bg-extended">
       <Section>
-        <div className="col-span-12 lg:col-span-6 mt-16 lg:mt-20 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
+        <div className="col-span-12 lg:col-span-6 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
           <p
             data-aos="fade-right"
             data-aos-once="true"
@@ -72,7 +72,7 @@ export default function HeroSection({ onBookCall, onSeeHowItWorks }) {
           </p>
         </div>
         <div className="hidden sm:block col-span-12 lg:col-span-6">
-          <div className="relative w-full flex items-center justify-center pt-12 xl:pt-16" data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
+          <div className="relative w-full flex items-center justify-center " data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
             <div className="relative w-full max-w-lg">
               <Image
                 src="/assets/img/transmission-lines-feature-1920w.jpg"
